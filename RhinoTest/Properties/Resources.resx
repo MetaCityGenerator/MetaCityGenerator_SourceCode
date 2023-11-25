@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AssemblyIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AssemblyIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FL_ConnectToNetwork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FL_ConnectToNetwork.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FL_CoverageArea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FL_CoverageArea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICON_for_All" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ICON for All.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MetaData" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;components&gt;
+	&lt;module name="NetworkStructure"&gt;
+		&lt;component&gt;
+			&lt;id&gt;NetworkStructure_RoadsSplitter&lt;/id&gt;
+			&lt;name&gt;NS_RoadsSplitter&lt;/name&gt;
+			&lt;nickname&gt;RoadsSplitter&lt;/nickname&gt;
+			&lt;description&gt;Clearing and splitting input curves (both 2D and 3D). Handling all the degenerate cases: overlaps, shapely identical, intersection and invalid curve.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="OriginalCurves" nickname="O_Curves" description="The list of original curves for splitting."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="SplittedCurve" nickname="S_Curves" description="List of splitted curves."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+		&lt;component&gt;
+			&lt;id&gt;NetworkStructure_Computing3D&lt;/id&gt;
+			&lt;name&gt;NS_Computing3D&lt;/name&gt;
+			&lt;nickname&gt;Computing3D&lt;/nickname&gt;
+			&lt;description&gt;
+				Computing 3D-street network analysis.
+			&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="RoadsData" nickname="O_RoadsData" description="The original list of roads in 3D."/&gt;
+				&lt;input id="1" name="Radius" nickname="Radius" description="Radius in metric for computing. If using -1 as radius, component is doing global calculation."/&gt;
+				&lt;input id="2" name="Merge" nickname="Merge" description="True for merging all the roads segments when degree is two."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="MetricChoice" nickname="M_Choice" description=" Metric choice is calculated by counting the number of times each segment falls on the shortest path between all pairs of segments within a selected distance measured metrically"/&gt;
+				&lt;output id="1"  name="MetricIntegration" nickname="M_Integration" description="Metric integration measures how close each segment is to all others under the definition of metric distance, that is, the metric distance along the lines between the mid-points of two adjacent segments."/&gt;
+				&lt;output id="2"  name="MetricMeanDepth" nickname="M_MeanDepth" description="Metric mean depth is the average metric distance from each space to all others."/&gt;
+				&lt;output id="3"  name="MetricTotalDepth" nickname="M_TotalDepth" description=" Metric total depth is the cumulative total of the shortest metric distance paths between all pairs of nodes."/&gt;
+				&lt;output id="4"  name="AngularChoice" nickname="A_Choice" description=" Choice is calculated by counting the number of times each street segment falls on the shortest path between all pairs of segments within a selected distance (termed ‘radius’). The ‘shortest path’ refers to the path of least angular deviation (namely, the straightest route) through the system."/&gt;
+				&lt;output id="5"  name="AngularIntegration" nickname="A_Integration" description="Angular integration is the reciprocal of the normalised angular total depth. It can be compared across systems. It measures how close each segment is to all others in terms of the sum of angular changes that are made on each route."/&gt;
+				&lt;output id="6"  name="AngularMeanDepth" nickname="A_MeanDepth" description="Angular mean depth is the sum of the shortest angular paths over the sum of all angular intersections in the system. In DepthMap, it is defined as the sum of the shortest angular paths over the sum of the number of segments encountered on the paths from the root (origin) segment to all others."/&gt;
+				&lt;output id="7"  name="AngularTotalDepth" nickname="A_TotalDepth" description="Angular total depth is the cumulative total of the shortest angular paths to a selected segment as root."/&gt;
+				&lt;output id="8"  name="NormalisedAngularChoice" nickname="NACH" description="Angular total depth is the cumulative total of the shortest angular paths to a selected segment as root."/&gt;
+				&lt;output id="9"  name="NormalisedAngularIntegration" nickname="NAIN" description="Angular total segment length is the cumulative sum of the length of the segments along the least angular change path from an origin to a destination."/&gt;
+				&lt;output id="10"  name="CleanedRoadsData" nickname="C_RoadsData" description="A list of cleaned 3D-roads segments."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+		&lt;component&gt;
+			&lt;id&gt;NetworkStructure_ClearSitesData&lt;/id&gt;
+			&lt;name&gt;NS_ClearSitesData&lt;/name&gt;
+			&lt;nickname&gt;ClearSitesData&lt;/nickname&gt;
+			&lt;description&gt;Clearing all the input sites curves. Handling all the degenerate cases: duplicated, shapely identical, non_planar , non_closed and invalid curve.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="OriginalSitesData" nickname="O_SitesData" description="The original list of sites waiting for cleaning."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="CleanedSitesData" nickname="C_SitesData" description="A list of cleaned sites data."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+		&lt;component&gt;
+			&lt;id&gt;NetworkStructure_Computing&lt;/id&gt;
+			&lt;name&gt;NS_Computing&lt;/name&gt;
+			&lt;nickname&gt;Computing&lt;/nickname&gt;
+			&lt;description&gt;
+				Computing street network analysis.
+			&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="RoadsData" nickname="O_RoadsData" description="The original list of roads."/&gt;
+				&lt;input id="1" name="Radius" nickname="Radius" description="Radius in metric for computing. If using -1 as radius, component is doing global calculation."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="MetricChoice" nickname="M_Choice" description=" Metric choice is calculated by counting the number of times each segment falls on the shortest path between all pairs of segments within a selected distance measured metrically"/&gt;
+				&lt;output id="1"  name="MetricIntegration" nickname="M_Integration" description="Metric integration measures how close each segment is to all others under the definition of metric distance, that is, the metric distance along the lines between the mid-points of two adjacent segments."/&gt;
+				&lt;output id="2"  name="MetricMeanDepth" nickname="M_MeanDepth" description="Metric mean depth is the average metric distance from each space to all others."/&gt;
+				&lt;output id="3"  name="MetricTotalDepth" nickname="M_TotalDepth" description=" Metric total depth is the cumulative total of the shortest metric distance paths between all pairs of nodes."/&gt;
+				&lt;output id="4"  name="AngularChoice" nickname="A_Choice" description=" Choice is calculated by counting the number of times each street segment falls on the shortest path between all pairs of segments within a selected distance (termed ‘radius’). The ‘shortest path’ refers to the path of least angular deviation (namely, the straightest route) through the system."/&gt;
+				&lt;output id="5"  name="AngularIntegration" nickname="A_Integration" description="Angular integration is the reciprocal of the normalised angular total depth. It can be compared across systems. It measures how close each segment is to all others in terms of the sum of angular changes that are made on each route."/&gt;
+				&lt;output id="6"  name="AngularMeanDepth" nickname="A_MeanDepth" description="Angular mean depth is the sum of the shortest angular paths over the sum of all angular intersections in the system. In DepthMap, it is defined as the sum of the shortest angular paths over the sum of the number of segments encountered on the paths from the root (origin) segment to all others."/&gt;
+				&lt;output id="7"  name="AngularTotalDepth" nickname="A_TotalDepth" description="Angular total depth is the cumulative total of the shortest angular paths to a selected segment as root."/&gt;
+				&lt;output id="8"  name="NormalisedAngularChoice" nickname="NACH" description="Angular total depth is the cumulative total of the shortest angular paths to a selected segment as root."/&gt;
+				&lt;output id="9"  name="NormalisedAngularIntegration" nickname="NAIN" description="Angular total segment length is the cumulative sum of the length of the segments along the least angular change path from an origin to a destination."/&gt;
+				&lt;output id="10"  name="CleanedRoadsData" nickname="C_RoadsData" description="A list of cleaned roads segments."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+		
+
+		&lt;component&gt;
+			&lt;id&gt;NetworkStructure_RoadDensity&lt;/id&gt;
+			&lt;name&gt;NS_RoadDensity&lt;/name&gt;
+			&lt;nickname&gt;RoadDensity&lt;/nickname&gt;
+			&lt;description&gt;Calculating road density within a given region.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="Roads" nickname="Roads" description="A list of all the roads curves.(Accepts all curve types.)"/&gt;
+				&lt;input id="1" name="Boundary" nickname="Boundary" description="Boundary curve for calculating roads density.(Accepts all curve types and irregular shape.)"/&gt;	
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="RoadDensityDouble" nickname="RoadDensityD" description="Road density result in double type."/&gt;
+				&lt;output id="1"  name="RoadDensityString" nickname="RoadDensityS" description="Road density result with default unit in string type."/&gt;
+				&lt;output id="2"  name="CurvesInBoundary" nickname="Curves" description="Curve segments within the given boundary."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+		
+
+		&lt;component&gt;
+			&lt;id&gt;NetworkStructure_SiteAccessibility&lt;/id&gt;
+			&lt;name&gt;NS_SiteAccessibility&lt;/name&gt;
+			&lt;nickname&gt;SiteAccessibility&lt;/nickname&gt;
+			&lt;description&gt;Calculating the accessibility score for a given list of sites.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="CleanedRoadsData" nickname="C_RoadsData" description="Cleaned roads segment. (Connect the output of NA_ClearRoadsData component to this slut.)"/&gt;
+				&lt;input id="1" name="RoadsScores" nickname="RoadsScores" description="Network analysis results representing roads accessibility.(Choose one calculate result from NA_Computing.)"/&gt;
+				&lt;input id="2" name="SitesCurves" nickname="SitesCurves" description="A list of curves representing all the tested sites."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="CleanedSitesData" nickname="C_SitesData" description="Planar sites polygons in the same order of SiteScores.(This list is cleaned sites data.)"/&gt;
+				&lt;output id="1"  name="SiteScores" nickname="SiteScores" description="Sites accessibility scores in the same order of SitesPolygons."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+		&lt;component&gt;
+			&lt;id&gt;NetworkStructure_GravityModel&lt;/id&gt;
+			&lt;name&gt;NS_GravityModel&lt;/name&gt;
+			&lt;nickname&gt;GravityModel&lt;/nickname&gt;
+			&lt;description&gt;Calculating the gravity scores from a given list of sites to tods.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="SitesPoint" nickname="sPoints" description="A list of centroid points for all the sites."/&gt;
+				&lt;input id="1" name="TodsPoint" nickname="tPoints" description="A list of centroid points for all the tods."/&gt;
+				&lt;input id="2" name="E" nickname="e" description="dist^e"/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="Scores" nickname="scores" description="Scores for all the sites."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+		
+		
+	&lt;/module&gt;
+	
+	&lt;module name="RegulatoryPlanning"&gt;
+		&lt;component&gt;
+			&lt;id&gt;RegulatoryPlanning_GeneratingSites&lt;/id&gt;
+			&lt;name&gt;RP_GeneratingSites&lt;/name&gt;
+			&lt;nickname&gt;GeneratingSites&lt;/nickname&gt;
+			&lt;description&gt;Automatically generating sites polygon based on the input roads network.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;2_RegulatoryPlanning&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="MainRoads" nickname="mRoads" description="A list of curves representing the primary roads."/&gt;
+				&lt;input id="1" name="SecondaryRoads" nickname="sRoads" description="A list of curves representing the secondary roads.(Optional)"/&gt;
+				&lt;input id="2" name="TertiaryRoads" nickname="tRoads" description="A list of curves representing the tertiary roads.(Optional)"/&gt;
+				&lt;input id="3" name="Branches" nickname="branches" description="A list of curves representing the branches roads.(Optional)"/&gt;
+				&lt;input id="4" name="RoadsWidths" nickname="rWidths" description="A list of number representing the width for roads in the order from primary to branches."/&gt;
+				&lt;input id="5" name="CornerRadius" nickname="cRadius" description="The radius for rounding the site corners."/&gt;
+				&lt;input id="5" name="Boundary" nickname="boundary" description="The boundary for determining the area to generate sites."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="GeneratedSites" nickname="gSites" description="Result of all the generated sites polygons."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+		&lt;component&gt;
+			&lt;id&gt;RegulatoryPlanning_ClusteringBlocks&lt;/id&gt;
+			&lt;name&gt;RP_ClusteringBlocks&lt;/name&gt;
+			&lt;nickname&gt;ClusteringBlocks&lt;/nickname&gt;
+			&lt;description&gt;
+				Clustering a set of sites blocks based on the network distance matrix by using HAC algorithm.
+			&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;2_RegulatoryPlanning&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="Roads" nickname="roads" description="A set of curves representing all the roads."/&gt;
+				&lt;input id="1" name="Sites" nickname="sites" description="A set of closed curves representing all the sites."/&gt;
+				&lt;input id="2" name="Diameters" nickname="diameters" description="A list of distances for complete linkage clustering."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="ClusterLinks" nickname="cLinks" description="Links to represent the hierarchy of all the clusters."/&gt;
+				&lt;output id="1"  name="SiteIds" nickname="sIds" description="The id for each site in Tree structure to represent the hierarchy of all the clusters."/&gt;
+				&lt;output id="2"  name="Out" nickname="out" description="The output object which contains all the information of clustering. This data will be used in Landuse allocation component."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+		&lt;component&gt;
+			&lt;id&gt;RegulatoryPlanning_ClusteringPoints&lt;/id&gt;
+			&lt;name&gt;RP_ClusteringPoints&lt;/name&gt;
+			&lt;nickname&gt;ClusteringPoints&lt;/nickname&gt;
+			&lt;description&gt;
+				Clustering a set of sites blocks based on the distance matrix among all the site centroids by using HAC algorithm.
+			&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;2_RegulatoryPlanning&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="SitesCentroid" nickname="points" description="A set of centroids representing all the sites."/&gt;
+				&lt;input id="1" name="Diameters" nickname="diameters" description="A list of distances for complete linkage clustering."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="ClusterLinks" nickname="cLinks" description="Links to represent the hierarchy of all the clusters."/&gt;
+				&lt;output id="1"  name="SiteIds" nickname="sIds" description="The id for each site in Tree structure to represent the hierarchy of all the clusters."/&gt;
+				&lt;output id="2"  name="Out" nickname="out" description="The output object which contains all the information of clustering. This data will be used in Landuse allocation component."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+		&lt;component&gt;
+			&lt;id&gt;RegulatoryPlanning_LanduseAllocation&lt;/id&gt;
+			&lt;name&gt;RP_LanduseAllocation&lt;/name&gt;
+			&lt;nickname&gt;LanduseAllocation&lt;/nickname&gt;
+			&lt;description&gt;Automatically allocating landuse for each site.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;2_RegulatoryPlanning&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="Sites" nickname="sites" description="A set of closed curves representing all the sites."/&gt;
+				&lt;input id="1" name="Scores" nickname="scores" description="The accessibillity scores with different radius for each site.(Preferred three branches)"/&gt;
+				&lt;input id="2" name="ClusterIds" nickname="ids" description="The object which contains all the information of clustering. Please using the output data from ClusteringBlocks component."/&gt;
+				&lt;input id="3" name="LandUse" nickname="landuse" description="Landuse with the input order represents priority + percentage of each landuse.(eg:  R:0.2 )"/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="SitesPolygon" nickname="sites" description="A set of closed curves representing all the sites after split."/&gt;
+				&lt;output id="1"  name="SitesLanduse" nickname="landuse" description="All the allocated landuse for each site."/&gt;
+				&lt;output id="2"  name="Statistics" nickname="statistics" description="The result in terms of the percentage of each type of landuse."/&gt;
+				&lt;output id="3"  name="Model_LanduseAllocation" nickname="model" description="The result of landuse allocation."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+		&lt;component&gt;
+			&lt;id&gt;RegulatoryPlanning_FarAllocation&lt;/id&gt;
+			&lt;name&gt;RP_FarAllocation&lt;/name&gt;
+			&lt;nickname&gt;FarAllocation&lt;/nickname&gt;
+			&lt;description&gt;Automatically allocating far for each site.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;2_RegulatoryPlanning&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="Model_LanduseAllocation" nickname="model" description="Model_LanduseAllocation class from LanduseAllocation components."/&gt;
+				&lt;input id="1" name="TotalArea" nickname="area" description="The total area of target urban design."/&gt;
+				&lt;input id="2" name="FARRatio" nickname="FAR" description="The percentage of construction area in each landuse.(eg:  R:0.2, GIC:0.2 )"/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="FARResult" nickname="FAR" description="All the allocated FAR for each site."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+		
+
+		
+	&lt;/module&gt;
+	
+	
+	&lt;module name="UrbanDesign"&gt;
+		&lt;component&gt;
+			&lt;id&gt;Urban_DesignCalculator&lt;/id&gt;
+			&lt;name&gt;UD_DesignCalculator&lt;/name&gt;
+			&lt;nickname&gt;DesignCalculator&lt;/nickname&gt;
+			&lt;description&gt;Calculating building numbers and floors for each prototype to satisfy the target of a given FAR and Density.(Obsolete)&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="SiteCurve" nickname="SiteCurve" description="Site for holding buildings.(Accepts all curve types.)"/&gt;
+				&lt;input id="1" name="Buildings" nickname="Buildings" description="2D outlines representing building prototypes."/&gt;
+				&lt;input id="2" name="FloorsRange" nickname="FloorsRange" description="Floors range interval for each building prototype."/&gt;
+				&lt;input id="3" name="TargetFAR" nickname="TargetFAR" description="Target FAR for current site to achieve."/&gt;
+				&lt;input id="4" name="TargetDensity" nickname="TargetDensity" description="Target Density for current site to achieve."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="TypeCounts" nickname="TypeCounts" description="Required numbers for each building prototype."/&gt;
+				&lt;output id="1"  name="TypeFloors" nickname="TypeFloors" description="Required floors for each building prototype."/&gt;
+				&lt;output id="2" name="AccurateFAR" nickname="AccurateFAR" description="Accurate FAR for current solution."/&gt;
+				&lt;output id="3" name="AccurateDensity" nickname="AccurateDensity" description="Accurate density for current solution."/&gt;			
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+	
+		
+		
+		&lt;component&gt;
+			&lt;id&gt;Urban_DynamicSplit&lt;/id&gt;
+			&lt;name&gt;UD_DynamicSplit&lt;/name&gt;
+			&lt;nickname&gt;DynamicSplit&lt;/nickname&gt;
+			&lt;description&gt;Using binary space partition tree to split a given site with accurate areas ratios.(Obsolete)&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="SiteCurve" nickname="SiteCurve" description="Site curve for splitting.(Accepts all curve types and irregular shape except L-shape and U-shape.) "/&gt;
+				&lt;input id="1" name="AreasList" nickname="AreasList" description="A list of double holding target areas or ratios for each site.(Accepts duplicates.If using ratios, list sum must equal one.)"/&gt;
+				&lt;input id="2" name="Priorities" nickname="Priorities" description="Priorities of each site.(Subsites with higher priority will be near to roads that have higher accessibility.)"/&gt;
+				&lt;input id="3" name="Accessibilties" nickname="Accessibilties" description="Accessibilties scores for each edge of site's bounding box.(Please enter a four accessibility scores into a list.)"/&gt;
+				&lt;input id="4" name="SplitAngle" nickname="SplitAngle" description="Angle in radians format for constructing bounding box and splitting site."/&gt;
+				&lt;input id="5" name="RenewAngle" nickname="RenewAngle" description="Renew angle for each literation of splitting."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="SubSites" nickname="SubSites" description="Result list of subsites curves after dynamic splitting."/&gt;
+				&lt;output id="1"  name="SubEdges" nickname="SubEdges" description="Edges of bounding box for each subsite.(Used for understanding the logic of splitting.)"/&gt;
+				&lt;output id="2" name="EdgeScores" nickname="EdgeScores" description="Priority scores for each edge of subsite's bounding box.(Shares same order with SubEdges.)"/&gt;
+				&lt;output id="3" name="SubAngles" nickname="SubAngles" description="Angle in radians for each subsite."/&gt;
+				&lt;output id="4" name="SubIndex" nickname="SubIndex" description="Index for each subsite corresponding to input areas list."/&gt;
+				&lt;output id="5" name="BSPTree" nickname="BSPTree" description="Visualization for internal binary space partition tree.(Used for understanding the logic of splitting.)"/&gt;			
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+		&lt;component&gt;
+			&lt;id&gt;Urban_ResidentialLimitation&lt;/id&gt;
+			&lt;name&gt;UD_ResidentialLimitation&lt;/name&gt;
+			&lt;nickname&gt;ResidentialLimitation&lt;/nickname&gt;
+			&lt;description&gt;Calculating the theoretical maximum FAR and densit based on the input site and city.(Obsolete)&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="SiteCurve" nickname="SiteCurve" description="Site curve for holding residential buildings."/&gt;
+				&lt;input id="1" name="CityIndex" nickname="CityIndex" description="City index for getting coordinates."/&gt;
+				&lt;input id="2" name="HeightLimit" nickname="HeightLimit" description="Height limitation for current site.(Unit: meter.)"/&gt;
+				&lt;input id="3" name="FloorHeight" nickname="FloorHeight" description="Height for each floor.(Using 3.0m as default.)"/&gt;
+				&lt;input id="4" name="Orientation" nickname="Orientation" description="Angle in radians representing the main orientation of buildings.(Using 0 as default.)"/&gt;
+				&lt;input id="5" name="BuildingDepth" nickname="BuildingDepth" description="Depth for residential outline.(Using 26m as default.)"/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="MaxFAR" nickname="MaxFAR" description="Theoretical maximum FAR based on input parameters."/&gt;
+				&lt;output id="1"  name="MaxDensity" nickname="MaxDensity" description="Theorectical maximum density only in the Maximum FAR scenario.(Note:When FAR is smaller than maxFar, density will increase.)"/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+		&lt;component&gt;
+			&lt;id&gt;UrbanDesign_SiteGeneratePlans&lt;/id&gt;
+			&lt;name&gt;UD_SiteGeneratePlans&lt;/name&gt;
+			&lt;nickname&gt;SiteGeneratePlans&lt;/nickname&gt;
+			&lt;description&gt;Generating buildings for all the sites.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="SiteParameters" nickname="SiteParameters" description="List of refined site parameters for all the sites.(Connect the output of UD_SiteParameterExtra component to this slut.)"/&gt;
+				&lt;input id="1" name="CityIndex" nickname="CityIndex" description="City index for getting coordinates."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="DesignResults" nickname="DesignResults" description="Generic output contains original design result.(This output is used for resource demand calculation.)"/&gt;
+				&lt;output id="1"  name="SiteCurves" nickname="SiteCurves" description="The original site curves without splitting."/&gt;
+				&lt;output id="2"  name="FARs" nickname="FARs" description="The current FAR for each site after generating buildings."/&gt;
+				&lt;output id="3"  name="Densities" nickname="Densities" description="The current Density for each site after generating buildings."/&gt;
+				&lt;output id="4"  name="SubSites" nickname="SubSites" description="SubSites for each original site after splitting."/&gt;
+				&lt;output id="5"  name="SubSitesSetbacks" nickname="SubSitesSetbacks" description="Setback curves for each subsite."/&gt;
+				&lt;output id="6"  name="BuildingFloorCurves" nickname="BuildingFloorCurves" description="Curves representing the floor layers for each building."/&gt;
+				&lt;output id="7"  name="BuildingRoofs" nickname="BuildingRoofs" description="All the roof curves for each building."/&gt;
+				&lt;output id="8"  name="BuildingFloorCount" nickname="BuildingFloorCount" description="Count of floors for each building, corresponding to BuildingRoofs."/&gt;
+				&lt;output id="9"  name="BuildingBreps" nickname="BuildingBreps" description="Brep geometries representing all the buildings."/&gt;
+				&lt;output id="10"  name="BuildingFunctions" nickname="BuildingFunctions" description="Functions name for each brep within a building, corresponding to BuildingBreps.(R\H\O\C\W\M)"/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+		&lt;component&gt;
+			&lt;id&gt;UrbanDesign_SiteParameter&lt;/id&gt;
+			&lt;name&gt;UD_SiteParameter&lt;/name&gt;
+			&lt;nickname&gt;SiteParameter&lt;/nickname&gt;
+			&lt;description&gt;Getting initial site parameters based on input roads and sites curves.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="CleanedRoadsData" nickname="C_RoadsData" description="Cleaned roads segment. (Connect the output of NA_ClearRoadsData component to this slut.)"/&gt;
+				&lt;input id="1" name="RoadsScores" nickname="RoadsScores" description="Network analysis results representing roads accessibility.(Choose one calculate result from NA_Computing.)"/&gt;
+				&lt;input id="2" name="SitesCurves" nickname="SitesCurves" description="A list of curves representing the base sites for generating buildings."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="InitialSiteParameters" nickname="InitialSiteParameters" description="A list of initial site parameters for all the sites."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+		&lt;component&gt;
+			&lt;id&gt;UrbanDesign_SiteParameterExtra&lt;/id&gt;
+			&lt;name&gt;UD_SiteParameterExtra&lt;/name&gt;
+			&lt;nickname&gt;SiteParameterExtra&lt;/nickname&gt;
+			&lt;description&gt;Adding or refining the properties of each initial site parameters.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="SiteParameters" nickname="SiteParameters" description="A list of initial site parameters for all the sites.(Connect the output of UD_SiteParameter component to this slut.)"/&gt;
+				&lt;input id="1" name="SiteTypesEnum" nickname="SiteTypesEnum" description="Site type enumerators.(R:0, C:1, GIC:2, M:3, W:4)"/&gt;
+				&lt;input id="2" name="TargetFAR" nickname="TargetFAR" description="Target FAR for current site to achieve."/&gt;
+				&lt;input id="3" name="TargetDensity" nickname="TargetDensity" description="Target Density for current site to achieve."/&gt;
+				&lt;input id="4" name="MixRatios" nickname="MixRatios" description="The ratio of mixuse buildings.(MixRatio = mixBuildingArea/totalBuildingArea"/&gt;
+				&lt;input id="5" name="BuidlingStyles" nickname="BuidlingStyles" description="For residential building: 0: row ; 1 : dot. For non-residential building: 0: dot ; 1: group; 2: mixed."/&gt;
+				&lt;input id="6" name="Orientation" nickname="Orientation" description="Angle in radians representing the main orientation of buildings.(Using 0 as default.)"/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="RefinedSiteParameters" nickname="RefinedSiteParameters" description="A list of refined site parameters for all the sites."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+
+		&lt;component&gt;
+			&lt;id&gt;UrbanDesign_SiteTrees&lt;/id&gt;
+			&lt;name&gt;UD_SiteTrees&lt;/name&gt;
+			&lt;nickname&gt;SiteTrees&lt;/nickname&gt;
+			&lt;description&gt;Generating trees for input site.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="Site" nickname="Site" description="Input site."/&gt;
+				&lt;input id="1" name="TreeAreaRatio" nickname="Ratio" description="The ratio between trees area to site area."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="TreesPoint" nickname="Point" description="The centroids for locating trees."/&gt;
+				&lt;output id="1"  name="TreesRadius" nickname="Radius" description="The radius for trees."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+		
+
+	&lt;/module&gt;
+	
+	&lt;module name="FacilityAnalysis"&gt;
+		&lt;component&gt;
+			&lt;id&gt;FacilityAnalysis_CoverageArea&lt;/id&gt;
+			&lt;name&gt;FA_CoverageArea&lt;/name&gt;
+			&lt;nickname&gt;CoverageArea&lt;/nickname&gt;
+			&lt;description&gt;Finding the coverage area for a facility based on a given radius.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;4_FacilityAnalysis&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="RoadsNetwork" nickname="Network" description="Generic input parameter for calculating coverage area."/&gt;
+				&lt;input id="1" name="SourceSites" nickname="Sources" description="Sources curves representing facility sites."/&gt;
+				&lt;input id="2" name="NetworkRadius" nickname="Radius" description="Network length for coverage radius."/&gt;	
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="CoveredSites" nickname="Sites" description="Seleced sites within a given coverage area."/&gt;
+				&lt;output id="1"  name="CoveredSitesCentroids" nickname="Centroids" description="The centroids for all the covered sites."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+		&lt;component&gt;
+			&lt;id&gt;FacilityAnalysis_ConnectToNetwork&lt;/id&gt;
+			&lt;name&gt;FA_ConnectToNetwork&lt;/name&gt;
+			&lt;nickname&gt;ConnectToNetwork&lt;/nickname&gt;
+			&lt;description&gt;Connecting all the sites to nearest surrounding roads segments.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;4_FacilityAnalysis&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="RoadsCurves" nickname="RoadsCurves" description="All the roads curves for constructing a network."/&gt;
+				&lt;input id="1" name="SitesCurves" nickname="SitesCurves" description="All the sites curves for connecting to roads."/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="RoadsNetwork" nickname="Network" description="Generic output parameter for calculating coverage area."/&gt;
+				&lt;output id="1"  name="RoadsSegments" nickname="Segments" description="The segments of all the roads after connecting sites."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+	&lt;/module&gt;
+	
+
+		
+	&lt;module name="SustainabilityAnalysis"&gt;
+		
+        &lt;!-- 从现有数据读取，计算人口数据--&gt;
+        &lt;component&gt;
+          &lt;id&gt;SustainabilityAnalysis_Population&lt;/id&gt;
+          &lt;name&gt;SA_Population&lt;/name&gt;
+          &lt;nickname&gt;Population&lt;/nickname&gt;
+          &lt;description&gt;Calculates population in each residential building. TODO: only residential? &lt;/description&gt;
+          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
+          &lt;inputs&gt;
+            &lt;input id="0" name="InputBreps" nickname="InputBreps" description="Input brep list to calculate population."/&gt;
+          &lt;/inputs&gt;
+          &lt;outputs&gt;
+            &lt;output id="0"  name="Population" nickname="Population" description="Result of population estimation in each building."/&gt;
+          &lt;/outputs&gt;
+        &lt;/component&gt;
+		
+
+        &lt;!-- 从类读取，能源消耗量计算 --&gt;
+        &lt;component&gt;
+          &lt;id&gt;SustainabilityAnalysis_Energy&lt;/id&gt;
+          &lt;name&gt;SA_Energy&lt;/name&gt;
+          &lt;nickname&gt;Energy&lt;/nickname&gt;
+          &lt;description&gt;Calculates energy consumption for each building.&lt;/description&gt;
+          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
+          &lt;inputs&gt;
+            &lt;input id="0" name="DesignResult" nickname="DesignResult" description="Generic input contains original design result.(Connect the output of UD_SiteGeneratePlans component to this slut.)"/&gt;
+          &lt;/inputs&gt;
+          &lt;outputs&gt;
+            &lt;output id="0"  name="EnergyConsumption" nickname="EnergyConsumption" description="Result of energy consumption for each building, unit=kWh/year"/&gt;
+          &lt;/outputs&gt;
+        &lt;/component&gt;
+		
+		
+		&lt;!-- 从类读取，能源消耗量计算，能源碳排放 --&gt;
+        &lt;component&gt;
+          &lt;id&gt;SustainabilityAnalysis_EnergyCarbonEmissions&lt;/id&gt;
+          &lt;name&gt;SA_EnergyCarbonEmissions&lt;/name&gt;
+          &lt;nickname&gt;EnergyCarbonEmissions&lt;/nickname&gt;
+          &lt;description&gt;Calculates the carbon emissions for generating the given amount of energy.&lt;/description&gt;
+          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
+          &lt;inputs&gt;
+            &lt;input id="0" name="EnergyConsumption" nickname="EnergyConsumption" description="Result of energy consumption for each building, unit=kWh/year"/&gt;
+          &lt;/inputs&gt;
+          &lt;outputs&gt;
+            &lt;output id="0"  name="CarbonEmissions" nickname="CarbonEmissions" description="Result of carbon emissions for generating the given amount of energy, CO2 , unit=t/year"/&gt;
+          &lt;/outputs&gt;
+        &lt;/component&gt;
+		
+    
+        &lt;!-- 从类读取，水资源消耗量计算--&gt;
+        &lt;component&gt;
+          &lt;id&gt;SustainabilityAnalysis_Water&lt;/id&gt;
+          &lt;name&gt;SA_Water&lt;/name&gt;
+          &lt;nickname&gt;Water&lt;/nickname&gt;
+          &lt;description&gt;Calculates water consumption for each building.&lt;/description&gt;
+          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
+          &lt;inputs&gt;
+            &lt;input id="0" name="DesignResult" nickname="DesignResult" description="Generic input contains original design result.(Connect the output of UD_SiteGeneratePlans component to this slut.)"/&gt;
+          &lt;/inputs&gt;
+          &lt;outputs&gt;
+            &lt;output id="0"  name="WaterConsumption" nickname="WaterConsumption" description="Result of water consumption for each building,  unit=t/year"/&gt;
+          &lt;/outputs&gt;
+        &lt;/component&gt;
+
+        &lt;!-- 从类读取，固废资源产生量计算--&gt;
+        &lt;component&gt;
+          &lt;id&gt;SustainabilityAnalysis_Waste&lt;/id&gt;
+          &lt;name&gt;SA_Waste&lt;/name&gt;
+          &lt;nickname&gt;Waste&lt;/nickname&gt;
+          &lt;description&gt;Calculates domestic waste generation for each building.&lt;/description&gt;
+          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
+          &lt;inputs&gt;
+            &lt;input id="0" name="DesignResult" nickname="DesignResult" description="Generic input contains original design result.(Connect the output of UD_SiteGeneratePlans component to this slut.)"/&gt;
+          &lt;/inputs&gt;
+          &lt;outputs&gt;
+            &lt;output id="0"  name="WasteGeneration" nickname="WasteGeneration" description="Result of domestic waste generation which require further treatment,  unit=t/year"/&gt;
+          &lt;/outputs&gt;
+        &lt;/component&gt;
+
+	  &lt;!-- 从类读取，固废资源产生量计算，固废碳排放--&gt;
+        &lt;component&gt;
+          &lt;id&gt;SustainabilityAnalysis_WasteCarbonEmissions&lt;/id&gt;
+          &lt;name&gt;SA_WasteCarbonEmissions&lt;/name&gt;
+          &lt;nickname&gt;WasteCarbonEmissions&lt;/nickname&gt;
+          &lt;description&gt;Calculates the carbon emissions for waste treatment.&lt;/description&gt;
+          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
+          &lt;inputs&gt;
+            &lt;input id="0" name="WasteGeneration" nickname="WasteGeneration" description="Result of domestic waste generation which require further treatment,  unit=t/year"/&gt;
+						&lt;input id="1" name="wasteTreatment" nickname="wasteTreatment" description="The method of waste treatment for a given amount of waste.[0]waste_landfill. [1]waste_incineration. [2]waste_composting"/&gt;
+          &lt;/inputs&gt;
+          &lt;outputs&gt;
+            &lt;output id="0"  name="CarbonEmissions" nickname="CarbonEmissions" description="Result of carbon emissions for waste treatment, CO2 , unit=t/year"/&gt;
+          &lt;/outputs&gt;
+        &lt;/component&gt;
+		
+		
+		
+			
+
+        &lt;!-- 从现有数据读取，能源消耗量计算--&gt;
+        &lt;component&gt;
+          &lt;id&gt;SustainabilityAnalysis_EnergyCustom&lt;/id&gt;
+          &lt;name&gt;SA_EnergyCustom&lt;/name&gt;
+          &lt;nickname&gt;EnergyCustom&lt;/nickname&gt;
+          &lt;description&gt;Calculates energy consumption for each building based on custom input objects.&lt;/description&gt;
+          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
+          &lt;inputs&gt;
+            &lt;input id="0" name="InputBreps" nickname="InBrep" description="Input breps to calculate energy consumption."/&gt;
+            &lt;input id="1" name="InputFunctions" nickname="InFun" description="Input functions of each brep, R,C,H,O,GIC,M,W"/&gt;
+          &lt;/inputs&gt;
+          &lt;outputs&gt;
+            &lt;output id="0"  name="EnergyConsumption" nickname="EnergyConsumption" description="Result of energy consumption for each building, result=[min,max], unit=kw/y"/&gt;
+          &lt;/outputs&gt;
+        &lt;/component&gt;
+    
+        &lt;!-- 从现有数据读取，水资源消耗量计算--&gt;
+        &lt;component&gt;
+          &lt;id&gt;SustainabilityAnalysis_WaterCustom&lt;/id&gt;
+          &lt;name&gt;SA_WaterCustom&lt;/name&gt;
+          &lt;nickname&gt;WaterCustom&lt;/nickname&gt;
+          &lt;description&gt;Calculates water consumption for each building based on custom input objects.&lt;/description&gt;
+          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
+          &lt;inputs&gt;
+            &lt;input id="0" name="InputBreps" nickname="InBrep" description="Input breps to calculate water consumption."/&gt;
+            &lt;input id="1" name="InputFunctions" nickname="InFun" description="Input functions of each brep, R,C,H,O,GIC,M,W"/&gt;
+          &lt;/inputs&gt;
+          &lt;outputs&gt;
+            &lt;output id="0"  name="WaterConsumption" nickname="WaterConsumption" description="Result of water consumption for each building, result=[min,max], unit=T/d"/&gt;
+          &lt;/outputs&gt;
+        &lt;/component&gt;
+
+        &lt;!-- 从现有数据读取，固废资源产生量计算--&gt;
+        &lt;component&gt;
+          &lt;id&gt;SustainabilityAnalysis_WasteCustom&lt;/id&gt;
+          &lt;name&gt;SA_WasteCustom&lt;/name&gt;
+          &lt;nickname&gt;WasteCustom&lt;/nickname&gt;
+          &lt;description&gt;Calculates domestic waste generation for each building based on input objects.&lt;/description&gt;
+          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
+          &lt;inputs&gt;
+            &lt;input id="0" name="InputBreps" nickname="InBrep" description="Input breps to calculate domestic waste generation."/&gt;
+            &lt;input id="1" name="InputFunctions" nickname="InFun" description="Input functions of each brep, R,C,H,O,GIC,M,W"/&gt;
+          &lt;/inputs&gt;
+          &lt;outputs&gt;
+            &lt;output id="0"  name="WasteGeneration" nickname="WasteGeneration" description="Result of domestic waste generation which require further treatment, result=[min,max], unit=kg/d"/&gt;
+          &lt;/outputs&gt;
+        &lt;/component&gt;
+    &lt;/module&gt;
+
+	&lt;module name="VisibilityAnalysis"&gt;
+		&lt;!-- 从Rhino Brep转换到Rhino Mesh--&gt;
+		&lt;component&gt;
+			&lt;id&gt;VisibilityAnalysis_GenerateMeshBuildings&lt;/id&gt;
+			&lt;name&gt;VA_GenerateMeshBuildings&lt;/name&gt;
+			&lt;nickname&gt;GenerateMeshBuildings&lt;/nickname&gt;
+			&lt;description&gt;Convert rhino brep into DMesh&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="brep" nickname="B" description="input brep"/&gt;
+				&lt;input id="1" name="subdivisionSize" nickname="subSize" description="default is -1, system would auto-generate simplest geometry"/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="generatedMeshClass" nickname="GMClass" description="output DMesh class, contained top, bottom mesh, side mesh, sidemesh area, mesh center point"/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+		&lt;!-- 从Rhino Mesh转换到Rhino Mesh--&gt;
+		&lt;component&gt; 
+			&lt;id&gt;VisibilityAnalysis_GenerateMesh&lt;/id&gt;
+			&lt;name&gt;VA_GenerateMesh&lt;/name&gt;
+			&lt;nickname&gt;GenerateMesh&lt;/nickname&gt;
+			&lt;description&gt;Convert rhino mesh into DMesh&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="mesh" nickname="M" description="input mesh"/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="generatedMeshClass" nickname="GMClass" description="output DMesh class."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+`
+		&lt;!-- 计算三维视线曝光，并返回每个点的可视概率--&gt;
+		&lt;component&gt;
+			&lt;id&gt;VisibilityAnalysis_ExposureRate3DBuildings&lt;/id&gt;
+			&lt;name&gt;VA_ExposureRate3DBuildings&lt;/name&gt;
+			&lt;nickname&gt;ExposureRate3DBuildings&lt;/nickname&gt;
+			&lt;description&gt;Calculate the visibility ratio of each pt in 3d context&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0"  name="viewPt" nickname="vPt" description="view pts in the context"/&gt;
+				&lt;input id="1"  name="generatedMeshClass" nickname="GMClass" description="input generated mesh class"/&gt;
+				&lt;input id="2" name="viewRange" nickname="vRange" description="view range in each pt as radius"/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="ColoredSidesMesh" nickname="sideM" description="output colored sides mesh"/&gt;
+				&lt;output id="1"  name="UnColoredTopMesh" nickname="topBtnM" description="output colored top, bottom mesh"/&gt;
+				&lt;output id="2"  name="MeshIntrCount" nickname="MCount" description="output the count of each mesh got intersected"/&gt;
+				&lt;output id="3"  name="VisData" nickname="VIS" description="output data of each pt. [0] total vis area, [1] normalized vis area((ratio=visible building/buildings in view range)). [2] vis ratio(each vis area/area should be seen)."/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+
+    &lt;!-- 计算三维视线曝光，并返回每个点的可视概率--&gt;
+    &lt;component&gt;
+      &lt;id&gt;VisibilityAnalysis_ExposureRate3DMesh&lt;/id&gt;
+      &lt;name&gt;VA_ExposureRate3DMesh&lt;/name&gt;
+      &lt;nickname&gt;ExposureRate3DMesh&lt;/nickname&gt;
+      &lt;description&gt;Calculate the visibility ratio of each pt in 3d context&lt;/description&gt;
+      &lt;category&gt;UrbanX&lt;/category&gt;
+      &lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
+      &lt;inputs&gt;
+        &lt;input id="0"  name="viewPt" nickname="vPt" description="view pts in the context"/&gt;
+        &lt;input id="1"  name="generatedMeshClass" nickname="GMClass" description="input generated mesh class"/&gt;
+        &lt;input id="2" name="viewRange" nickname="vRange" description="view range in each pt as radius"/&gt;
+      &lt;/inputs&gt;
+      &lt;outputs&gt;
+        &lt;output id="0"  name="ColoredMesh" nickname="M" description="output colored mesh"/&gt;
+        &lt;output id="1"  name="MeshIntrCount" nickname="MCount" description="output the count of each mesh got intersected"/&gt;
+        &lt;output id="2"  name="VisData" nickname="VIS" description="output data of each pt. [0] total vis area, [1] normalized vis area((ratio=visible area/whole object area))."/&gt;
+      &lt;/outputs&gt;
+    &lt;/component&gt;
+
+    &lt;!-- 计算三维视线可视域，并返回每条线的可视概率--&gt;
+    &lt;component&gt;
+      &lt;id&gt;VisibilityAnalysis_VisualCalc&lt;/id&gt;
+      &lt;name&gt;VA_VisualCalc&lt;/name&gt;
+      &lt;nickname&gt;VisualCalc&lt;/nickname&gt;
+      &lt;description&gt;calculate the visibility ratio of each crvs in 3d context&lt;/description&gt;
+      &lt;category&gt;UrbanX&lt;/category&gt;
+      &lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
+      &lt;inputs&gt;
+        &lt;input id="0"  name="viewRoads" nickname="vRoads" description="view Roads in the context"/&gt;
+        &lt;input id="1"  name="generatedMeshClass" nickname="GMClass" description="input generated mesh class"/&gt;
+        &lt;input id="2" name="divideLength" nickname="dLength" description="set divide length to divide those roads[unit: m. default:500m]"/&gt;
+        &lt;input id="3" name="viewRange" nickname="vRange" description="view range in each pt as radius[unit: m. default:300m]"/&gt;
+        &lt;input id="4" name="exportMesh" nickname="eMesh" description="toggle to export mesh data[default: false]"/&gt;
+      &lt;/inputs&gt;
+      &lt;outputs&gt;
+        &lt;output id="0"  name="cleanedRoads" nickname="cRoads" description="output cleanded roads"/&gt;
+        &lt;output id="1"  name="ptsOnRoad" nickname="roadPts" description="output pts on each roads"/&gt;
+        &lt;output id="2"  name="VisData" nickname="VIS" description="output data of each road. [0] total vis area, [1] transfered total vis area data. [2] transfered normalized vis area(each vis area/total vis area). [3] transfered vis ratio(each vis area/area should be seen)."/&gt;
+        &lt;output id="3"  name="ColoredMesh" nickname="M" description="output colored mesh if toggle true"/&gt;
+      &lt;/outputs&gt;
+    &lt;/component&gt;
+
+		
+		
+    &lt;!-- 计算三维视域句法，并返回每条线的视域句法数值--&gt;
+    &lt;component&gt;
+      &lt;id&gt;VisibilityAnalysis_VisualSyntaxComputing&lt;/id&gt;
+      &lt;name&gt;VA_VisualSyntaxCompute&lt;/name&gt;
+      &lt;nickname&gt;VisualSyntaxCompute&lt;/nickname&gt;
+      &lt;description&gt;calculate the visual syntax of each crvs in 3d context&lt;/description&gt;
+      &lt;category&gt;UrbanX&lt;/category&gt;
+      &lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
+      &lt;inputs&gt;
+        &lt;input id="0"  name="cleanedRoads" nickname="cRoads" description="cleaned roads in the context"/&gt;
+        &lt;input id="1"  name="scoreOnRoads" nickname="sRoads" description="score on each road"/&gt;
+        &lt;input id="2" name="radius" nickname="R" description="Radius in metric for computing. If using -1 as radius, component is doing global calculation."/&gt;
+		&lt;input id="3" name="Merge" nickname="Merge" description="True for merging all the roads segments when degree is two."/&gt;
+      &lt;/inputs&gt;
+      &lt;outputs&gt;
+        &lt;output id="0"  name="visualTotalDepth" nickname="visTD" description="visual total depth in each road"/&gt;
+        &lt;output id="1"  name="visualMeanDepth" nickname="visMD" description="visual mean depth in each road"/&gt;
+        &lt;output id="2"  name="visualIntegration" nickname="visI" description="visual integration in each road"/&gt;
+        &lt;output id="3"  name="visualChoice" nickname="visC" description="visual choice in each road"/&gt;
+        &lt;output id="4"  name="NormalisedVisualIntegration" nickname="NAVIN" description="normalised visual integration in each road"/&gt;
+        &lt;output id="5"  name="NormalisedVisualChoice" nickname="NAVCH" description="normalised visual choice in each road"/&gt;
+      &lt;/outputs&gt;
+    &lt;/component&gt;
+
+
+		&lt;!-- 从现有数据读取，建筑曝光率计算--&gt;
+		&lt;component&gt;
+			&lt;id&gt;VisibilityAnalysis_ExposureRate2D&lt;/id&gt;
+			&lt;name&gt;VA_ExposureRate2D&lt;/name&gt;
+			&lt;nickname&gt;ExposureRate2D&lt;/nickname&gt;
+			&lt;description&gt;calculate exposure rate of each side in builidng brep&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="inputBreps" nickname="inBrep" description="input brep list to calculate exposure rate value"/&gt;
+				&lt;input id="1" name="inputPts" nickname="inPts" description="input point list to create rays"/&gt;
+				&lt;input id="2" name="nomalized" nickname="N" description="normalized the exposure rate value"/&gt;
+				&lt;input id="3" name="radius" nickname="R" description="the radius of rays"/&gt;
+				&lt;input id="4" name="segments" nickname="S" description="the segments of rays"/&gt;
+			&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="outputLines" nickname="L" description="brep outlines in first level"/&gt;
+				&lt;output id="1"  name="outputExposureRates" nickname="ER" description="value for each brep outlines"/&gt;
+			&lt;/outputs&gt;
+		&lt;/component&gt;
+	&lt;/module&gt;
+
+	&lt;module name="Utility"&gt;
+		&lt;component&gt;
+			&lt;id&gt;Utility_To3DJson&lt;/id&gt;
+			&lt;name&gt;U_To3DJson&lt;/name&gt;
+			&lt;nickname&gt;To3DJson&lt;/nickname&gt;
+			&lt;description&gt;Write rhino curves into 3d json.&lt;/description&gt;
+			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;subCategory&gt;7_Utility&lt;/subCategory&gt;
+			&lt;inputs&gt;
+				&lt;input id="0" name="Curves" nickname="curves" description="Input curves for converting."/&gt;
+				&lt;input id="1" name="FilePath" nickname="path" description="Json file path."/&gt;
+				&lt;/inputs&gt;
+			&lt;outputs&gt;
+				&lt;output id="0"  name="Success" nickname="success" description="True for writing the file successifully."/&gt;
+				&lt;/outputs&gt;
+		&lt;/component&gt;
+
+
+	
+	&lt;/module&gt;
+
+&lt;/components&gt;</value>
+  </data>
+  <data name="NA_ClearSiteData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NA_ClearSiteData.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NA_ClusteringBlocks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NA_ClusteringBlocks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NA_ClusteringPoints" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NA_ClusteringPoints.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NA_Component" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NA_Component.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NA_Computing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NA_Computing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NA_GeneratingSites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NA_GeneratingSites.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NA_RoadDensity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NA_RoadDensity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NA_RoadsSplitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NA_RoadsSplitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NA_SiteAccessibility" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NA_SiteAccessibility.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RD_Energy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RD_Energy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RD_EnergyCustom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RD_EnergyCustom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RD_E_CarbonEmissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RD_E_CarbonEmissions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RD_Garbage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RD_Garbage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RD_GarbageCustom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RD_GarbageCustom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RD_G_CarbonEmissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RD_G_CarbonEmissions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RD_Population" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RD_Population.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RD_Water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RD_Water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RD_WaterCustom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RD_WaterCustom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RP_FARAllocation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RP_FARAllocation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RP_LanduseAllocation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RP_LanduseAllocation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_ExposureRate2D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SA_ExposureRate2D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_ExposureRate3D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SA_ExposureRate3D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_ExposureRate3D_Mesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SA_ExposureRate3D_Mesh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_GenerateMesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SA_GenerateMesh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_GenerateMesh_Mesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SA_GenerateMesh_Mesh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_VisualCalc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SA_VisualCalc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_VisualSyntaxCompute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SA_VisualSyntaxCompute.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TR_Convert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TR_Convert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TR_GenerateDemand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TR_GenerateDemand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TR_LinkStat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TR_LinkStat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TR_Simulation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TR_Simulation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UD_DesignCalculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UD_DesignCalculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UD_DynamicSplit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UD_DynamicSplit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UD_ResidentialLimitations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UD_ResidentialLimitations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UD_SiteGeneratePlan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UD_SiteGeneratePlan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UD_SiteGeneratePlans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UD_SiteGeneratePlans.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UD_SiteParameter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UD_SiteParameter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UD_SiteParameterExtra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UD_SiteParameterExtra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UT_CentroidLineExtraction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UT_CentroidLineExtraction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UT_CentroidLineExtractionFromBuffer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UT_CentroidLineExtractionFromBuffer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Water_CalculateSiteDemand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Water_CalculateSiteDemand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Water_InpFiletoGeomerty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Water_InpFiletoGeomerty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Water_NetworkOptimization" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Water_NetworkOptimization.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

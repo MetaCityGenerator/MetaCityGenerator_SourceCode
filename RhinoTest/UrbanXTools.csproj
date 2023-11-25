@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E19D0036-94FE-4A07-96AC-B6A5BA6FAA99}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UrbanXTools</RootNamespace>
+    <AssemblyName>UrbanXTools</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>UrbanXTools.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eto">
+      <HintPath>..\packages\RhinoCommon.6.9.18271.20591\lib\net45\Eto.dll</HintPath>
+    </Reference>
+    <Reference Include="geometry3Sharp, Version=1.0.324.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\geometry3Sharp.1.0.324\lib\net45\geometry3Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="GH_IO">
+      <HintPath>C:\Users\AlphonsePC\.nuget\packages\grasshopper\6.9.18271.20591\lib\net45\GH_IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Grasshopper">
+      <HintPath>C:\Users\AlphonsePC\.nuget\packages\grasshopper\6.9.18271.20591\lib\net45\Grasshopper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="NetTopologySuite, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetTopologySuite.2.3.0\lib\netstandard2.0\NetTopologySuite.dll</HintPath>
+    </Reference>
+    <Reference Include="NetTopologySuite.Features, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetTopologySuite.Features.2.1.0\lib\netstandard2.0\NetTopologySuite.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="RhinoCommon">
+      <HintPath>..\packages\RhinoCommon.6.9.18271.20591\lib\net45\RhinoCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.7.1\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.4.7.2\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomAttributesForAll.cs" />
+    <Compile Include="NetworkStructure_Computing3DBasedOnRadius.cs" />
+    <Compile Include="NetworkStructure_GiantComponentSize.cs" />
+    <Compile Include="Traffic_GenerateDemandComponent.cs" />
+    <Compile Include="Traffic_LinkStatsComponent.cs" />
+    <Compile Include="Traffic_MatsimComponent.cs" />
+    <Compile Include="Traffic_XML2GeojsonComponent.cs" />
+    <Compile Include="Utility_ExtractCenterLineFromBuffer.cs" />
+    <Compile Include="Debug_InitiateMesh.cs" />
+    <Compile Include="Debug_RayTracingComponent.cs" />
+    <Compile Include="Debug_VisualSyntax.cs" />
+    <Compile Include="Debug_VisualSyntaxComputing.cs" />
+    <Compile Include="FacilityAnalysis_ConnectToNetwork.cs" />
+    <Compile Include="FacilityAnalysis_CoverageArea.cs" />
+    <Compile Include="ObsoleteComponents\NetworkStructure_ClearSitesData.cs" />
+    <Compile Include="NetworkStructure_Computing3D.cs" />
+    <Compile Include="RegulatoryPlanning_FARAllocation.cs" />
+    <Compile Include="RegulatoryPlanning_LanduseAllocation.cs" />
+    <Compile Include="NetworkStructure_RoadsSplitter.cs" />
+    <Compile Include="ObsoleteComponents\NetworkStructure_Computing.cs" />
+    <Compile Include="RegulatoryPlanning_GeneratingSites.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SustainabilityAnalysis_EnergyCustom.cs" />
+    <Compile Include="SustainabilityAnalysis_WasteCustom.cs" />
+    <Compile Include="SustainabilityAnalysis_WaterCustom.cs" />
+    <Compile Include="SustainabilityAnalysis_WasteCarbonEmissions.cs" />
+    <Compile Include="SustainabilityAnalysis_EnergyCarbonEmissions.cs" />
+    <Compile Include="SustainabilityAnalysis_Population.cs" />
+    <Compile Include="SustainabilityAnalysis_Water.cs" />
+    <Compile Include="SustainabilityAnalysis_Waste.cs" />
+    <Compile Include="SharedResources.cs" />
+    <Compile Include="RegulatoryPlanning_ClusteringPoints.cs" />
+    <Compile Include="RegulatoryPlanning_ClusteringBlocks.cs" />
+    <Compile Include="NetworkStructure_GravityModel.cs" />
+    <Compile Include="UrbanDesign_Courtyard.cs" />
+    <Compile Include="UrbanDesign_SiteTrees.cs" />
+    <Compile Include="Utility_CenterLineExtraction.cs" />
+    <Compile Include="Utility_To3DJson.cs" />
+    <Compile Include="VisibilityAnalysisDecay_ExposureRate3DBuildings.cs" />
+    <Compile Include="VisibilityAnalysisDecay_ExposureRate3DMesh.cs" />
+    <Compile Include="VisibilityAnalysis_ExposureRate3DBuildings.cs" />
+    <Compile Include="VisibilityAnalysis_ExposureRate3DMesh.cs" />
+    <Compile Include="ObsoleteComponents\Urban_ResidentialLimitation.cs" />
+    <Compile Include="ObsoleteComponents\Urban_DesignCalculator.cs" />
+    <Compile Include="NetworkStructure_SiteAccessibility.cs" />
+    <Compile Include="UrbanDesign_SiteParameterExtra.cs" />
+    <Compile Include="UrbanDesign_SiteParameter.cs" />
+    <Compile Include="UrbanDesign_SiteGeneratePlans.cs" />
+    <Compile Include="SustainabilityAnalysis_Energy.cs" />
+    <Compile Include="NetworkStructure_RoadDensity.cs" />
+    <Compile Include="ObsoleteComponents\Urban_DynamicSplit.cs" />
+    <Compile Include="UrbanXToolsInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VisibilityAnalysis_ExposureRate2D.cs" />
+    <Compile Include="VisibilityAnalysis_GenerateMeshBuildings.cs" />
+    <Compile Include="VisibilityAnalysis_GenerateMesh.cs" />
+    <Compile Include="VisibilityAnalysis_VisualCalc.cs" />
+    <Compile Include="VisibilityAnalysis_VisualSyntaxComputing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UrbanXWrapper\UrbanXWrapper.csproj">
+      <Project>{080c40c1-52b9-499c-986b-0a4eaf63d589}</Project>
+      <Name>UrbanXWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UrbanX\UrbanX.csproj">
+      <Project>{b4e7a58a-ee66-4f47-acaa-c97550c98bf8}</Project>
+      <Name>UrbanX</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\data\indexCalculation.xml" />
+    <Content Include="bin\data\UrbanDesign.xml" />
+    <None Include="Resources\AssemblyIcon.png" />
+    <Content Include="Resources\MetaData.xml" />
+    <Content Include="Resources\NA_Component.png" />
+    <Content Include="Resources\RD_EnergyCustom.png" />
+    <Content Include="Resources\RD_GarbageCustom.png" />
+    <Content Include="Resources\RD_WaterCustom.png" />
+    <None Include="Resources\RP_FARAllocation.png" />
+    <None Include="Resources\RP_LanduseAllocation.png" />
+    <Content Include="Resources\SA_ExposureRate2D.png" />
+    <Content Include="Resources\SA_ExposureRate3D.png" />
+    <Content Include="Resources\SA_ExposureRate3D_Mesh.png" />
+    <Content Include="Resources\SA_GenerateMesh.png" />
+    <Content Include="Resources\SA_GenerateMesh_Mesh.png" />
+    <Content Include="Resources\SA_VisualCalc.png" />
+    <Content Include="Resources\SA_VisualSyntaxCompute.png" />
+    <None Include="Resources\UD_DesignCalculator.png" />
+    <None Include="Resources\UD_DynamicSplit.png" />
+    <None Include="Resources\UD_ResidentialLimitations.png" />
+    <None Include="Resources\UD_SiteGeneratePlan.png" />
+    <None Include="Resources\UT_CentroidLineExtraction.png" />
+    <None Include="Resources\UT_CentroidLineExtractionFromBuffer.png" />
+    <None Include="Resources\TR_GenerateDemand.png" />
+    <None Include="Resources\TR_Simulation.png" />
+    <Content Include="Resources\Water_CalculateSiteDemand.png" />
+    <Content Include="Resources\Water_InpFiletoGeomerty.png" />
+    <Content Include="Resources\Water_NetworkOptimization.png" />
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\FL_ConnectToNetwork.png" />
+    <None Include="Resources\FL_CoverageArea.png" />
+    <None Include="Resources\ICON for All.png" />
+    <None Include="Resources\NA_ClearSiteData.png" />
+    <None Include="Resources\NA_ClusteringBlocks.png" />
+    <None Include="Resources\NA_ClusteringPoints.png" />
+    <None Include="Resources\NA_Computing.png" />
+    <None Include="Resources\NA_GeneratingSites.png" />
+    <None Include="Resources\NA_RoadDensity.png" />
+    <None Include="Resources\NA_RoadsSplitter.png" />
+    <None Include="Resources\NA_SiteAccessibility.png" />
+    <None Include="Resources\RD_Energy.png" />
+    <None Include="Resources\RD_E_CarbonEmissions.png" />
+    <None Include="Resources\RD_Garbage.png" />
+    <None Include="Resources\RD_G_CarbonEmissions.png" />
+    <None Include="Resources\RD_Population.png" />
+    <None Include="Resources\RD_Water.png" />
+    <None Include="Resources\UD_SiteGeneratePlans.png" />
+    <None Include="Resources\UD_SiteParameter.png" />
+    <None Include="Resources\UD_SiteParameterExtra.png" />
+    <None Include="UrbanXStudio.pfx" />
+    <None Include="UrbanXTools.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>XCOPY "$(TargetDir)" "$(USERPROFILE)\AppData\Roaming\Grasshopper\Libraries\$(ProjectName)\" /S /Y
+COPY "$(TargetPath)" "$(USERPROFILE)\AppData\Roaming\Grasshopper\Libraries\$(ProjectName)\$(ProjectName).gha"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <FallbackCulture>en-US</FallbackCulture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartProgram>C:\Program Files\Rhino 6\System\Rhino.exe</StartProgram>
+    <StartArguments>
+    </StartArguments>
+    <StartAction>Program</StartAction>
+    <DocumentationFile>
+    </DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <Import Project="..\packages\RhinoCommon.6.9.18271.20591\build\net45\RhinoCommon.targets" Condition="Exists('..\packages\RhinoCommon.6.9.18271.20591\build\net45\RhinoCommon.targets')" />
+  <Import Project="..\packages\Grasshopper.6.9.18271.20591\build\net45\Grasshopper.targets" Condition="Exists('..\packages\Grasshopper.6.9.18271.20591\build\net45\Grasshopper.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Reactor_Deploy="0" Reactor_Enabled="1" Reactor_Commands="" Reactor_Project="" Reactor_Configuration="Release" Reactor_Output="&lt;AssemblyLocation&gt;\&lt;AssemblyFileName&gt;" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

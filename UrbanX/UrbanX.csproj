@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B4E7A58A-EE66-4F47-ACAA-C97550C98BF8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UrbanX</RootNamespace>
+    <AssemblyName>UrbanXCore</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>UrbanXTools.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DelaunatorSharp, Version=1.0.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Delaunator.1.0.9\lib\net471\DelaunatorSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Eto">
+      <HintPath>..\packages\RhinoCommon.6.9.18271.20591\lib\net45\Eto.dll</HintPath>
+    </Reference>
+    <Reference Include="geometry3Sharp, Version=1.0.324.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\geometry3Sharp.1.0.324\lib\net45\geometry3Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Solver.Foundation, Version=3.0.2.10889, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Solver.Foundation.3.1.0\lib\Microsoft.Solver.Foundation.dll</HintPath>
+    </Reference>
+    <Reference Include="NetTopologySuite, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetTopologySuite.2.3.0\lib\netstandard2.0\NetTopologySuite.dll</HintPath>
+    </Reference>
+    <Reference Include="NetTopologySuite.Features, Version=2.0.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetTopologySuite.Features.2.1.0\lib\netstandard2.0\NetTopologySuite.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="RhinoCommon">
+      <HintPath>..\packages\RhinoCommon.6.9.18271.20591\lib\net45\RhinoCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.7.1\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.4.7.2\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\Clustering\AgglomerativeClustering.cs" />
+    <Compile Include="Algorithms\Clustering\Cluster.cs" />
+    <Compile Include="Algorithms\Clustering\ClusterPair.cs" />
+    <Compile Include="Algorithms\Clustering\DissimilarityMatrix.cs" />
+    <Compile Include="Algorithms\Clustering\MultiClusters.cs" />
+    <Compile Include="Algorithms\Geometry2D\Voronoi.cs" />
+    <Compile Include="Algorithms\Geometry3D\Extension3D.cs" />
+    <Compile Include="Algorithms\Geometry3D\PolylineSnapper3D.cs" />
+    <Compile Include="Algorithms\Geometry3D\LinesIntersection3D.cs" />
+    <Compile Include="Algorithms\Geometry3D\SegmentsIntersection3D.cs" />
+    <Compile Include="Algorithms\Graphs\CalculateCentrality.cs" />
+    <Compile Include="Algorithms\Graphs\CalculateCentralityRadius.cs" />
+    <Compile Include="Algorithms\Graphs\CalculateCentrality3D.cs" />
+    <Compile Include="Algorithms\Graphs\CalculateCentralitySubgraphs.cs" />
+    <Compile Include="Algorithms\Graphs\DepthFirstSearch.cs" />
+    <Compile Include="Algorithms\Graphs\DijkstraShortestPaths.cs" />
+    <Compile Include="Algorithms\Graphs\GraphConverters.cs" />
+    <Compile Include="Algorithms\Mathematics\Parabola.cs" />
+    <Compile Include="Algorithms\Mathematics\RootFinding.cs" />
+    <Compile Include="Algorithms\Mathematics\SolveQuadratic.cs" />
+    <Compile Include="Algorithms\Trees\IntervalTree.cs" />
+    <Compile Include="Algorithms\Utility\Extension.cs" />
+    <Compile Include="Algorithms\Utility\Statistics.cs" />
+    <Compile Include="DataProcessing\CenterLineExtraction\CenterLineExtraction.cs" />
+    <Compile Include="DataProcessing\CenterLineExtraction\ConnectingRoadSegments.cs" />
+    <Compile Include="DataProcessing\CenterLineExtraction\DeleteShortSegments.cs" />
+    <Compile Include="DataProcessing\CenterLineExtraction\Grid.cs" />
+    <Compile Include="DataProcessing\CenterLineExtraction\InterchangeProcessing.cs" />
+    <Compile Include="DataProcessing\CenterLineExtraction\RidgeFilters.cs" />
+    <Compile Include="DataProcessing\CenterLineExtraction\Vertice.cs" />
+    <Compile Include="DataStructures\Geometry3D\Extension.cs" />
+    <Compile Include="DataStructures\Geometry3D\ULine.cs" />
+    <Compile Include="DataStructures\Geometry3D\UPoint.cs" />
+    <Compile Include="DataStructures\Geometry3D\UPolyline.cs" />
+    <Compile Include="DataStructures\Geometry3D\UVector3.cs" />
+    <Compile Include="DataStructures\Geometry\BasicGeometry.cs" />
+    <Compile Include="DataStructures\Geometry\VoronoiBeachLine.cs" />
+    <Compile Include="DataStructures\Geometry\VoronoiElements.cs" />
+    <Compile Include="DataStructures\Geometry\VoronoiEvents.cs" />
+    <Compile Include="DataStructures\Geometry\VoronoiStructure.cs" />
+    <Compile Include="DataStructures\Graphs\DirectedSparseGraph.cs" />
+    <Compile Include="DataStructures\Graphs\DirectedWeightedSparseGraph.cs" />
+    <Compile Include="DataStructures\Graphs\IEdge.cs" />
+    <Compile Include="DataStructures\Graphs\IGraph.cs" />
+    <Compile Include="DataStructures\Graphs\IWeightedGraph.cs" />
+    <Compile Include="DataStructures\Graphs\MawanGraph\DirectedEdge.cs" />
+    <Compile Include="DataStructures\Graphs\MawanGraph\Edge.cs" />
+    <Compile Include="DataStructures\Graphs\MawanGraph\EdgeWeightedDigraph.cs" />
+    <Compile Include="DataStructures\Graphs\MawanGraph\EdgeWeightedGraph.cs" />
+    <Compile Include="DataStructures\Graphs\SpaceSyntaxEdge.cs" />
+    <Compile Include="DataStructures\Graphs\SpaceSyntaxGraph.cs" />
+    <Compile Include="DataStructures\Graphs\UndirectedDenseGraph.cs" />
+    <Compile Include="DataStructures\Graphs\UndirectedSparseGraph.cs" />
+    <Compile Include="DataStructures\Graphs\UndirectedWeightedSparseGraph.cs" />
+    <Compile Include="DataStructures\Graphs\UnweightedEdge.cs" />
+    <Compile Include="DataStructures\Graphs\WeightedEdge.cs" />
+    <Compile Include="DataStructures\Heaps\BinaryMaxHeap.cs" />
+    <Compile Include="DataStructures\Heaps\BinaryMinHeap.cs" />
+    <Compile Include="DataStructures\Heaps\IMaxHeap.cs" />
+    <Compile Include="DataStructures\Heaps\IMinHeap.cs" />
+    <Compile Include="DataStructures\Heaps\MaxPriorityQueue.cs" />
+    <Compile Include="DataStructures\Heaps\MinPriorityQueue.cs" />
+    <Compile Include="DataStructures\Heaps\PriorityQueueNode.cs" />
+    <Compile Include="DataStructures\Set\LinkedHashSet.cs" />
+    <Compile Include="DataStructures\Trees\BinarySearchTree.cs" />
+    <Compile Include="DataStructures\Trees\BinarySearchTreeNode.cs" />
+    <Compile Include="DataStructures\Trees\BSPTree.cs" />
+    <Compile Include="DataStructures\Trees\IBinarySearchTree.cs" />
+    <Compile Include="DataStructures\Trees\ITreeNode.cs" />
+    <Compile Include="DataStructures\Trees\RBTree.cs" />
+    <Compile Include="DataStructures\Trees\RBTreeNode.cs" />
+    <Compile Include="DataStructures\Utility\Comparers.cs" />
+    <Compile Include="DataStructures\Utility\TreeDrawer.cs" />
+    <Compile Include="ExternalEngines\Epanet\EpanetCSharp.cs" />
+    <Compile Include="IO\GeoJSON\Converters\AttributesTableConverter.cs" />
+    <Compile Include="IO\GeoJSON\Converters\FeatureCollectionConverter.cs" />
+    <Compile Include="IO\GeoJSON\Converters\FeatureConverter.cs" />
+    <Compile Include="IO\GeoJSON\Converters\GeoJsonConverterFactory.cs" />
+    <Compile Include="IO\GeoJSON\Converters\GeometryConverter.Coordinates.cs" />
+    <Compile Include="IO\GeoJSON\Converters\GeometryConverter.cs" />
+    <Compile Include="IO\GeoJSON\Converters\GeometryConverter.Envelope.cs" />
+    <Compile Include="IO\GeoJSON\Converters\ParsedCoordinates.cs" />
+    <Compile Include="IO\GeoJSON\GeoJsonObjectType.cs" />
+    <Compile Include="IO\GeoJSON\GeoJsonWriter.cs" />
+    <Compile Include="IO\GeoJSON\Utility.cs" />
+    <Compile Include="IO\OpenNURBS\GeometryConverter.cs" />
+    <Compile Include="IO\Resources.Designer.cs" />
+    <Compile Include="IO\XML\XMLConverter.cs" />
+    <Compile Include="Planning\FacilityLocation\Nts_CityGraphBuilder.cs" />
+    <Compile Include="Planning\FacilityLocation\Rh_CoverageComputing.cs" />
+    <Compile Include="Planning\FacilityLocation\Nts_CoverageComputing.cs" />
+    <Compile Include="Planning\FacilityLocation\Rh_CityGraphBuilder.cs" />
+    <Compile Include="Planning\NetworkAnalysis\Extension.cs" />
+    <Compile Include="Planning\NetworkAnalysis\NetworkComputing.cs" />
+    <Compile Include="Planning\RegulatoryPlan\BuildingStatus.cs" />
+    <Compile Include="Planning\RegulatoryPlan\IndexPQ.cs" />
+    <Compile Include="Planning\RegulatoryPlan\LandStatus.cs" />
+    <Compile Include="Planning\RegulatoryPlan\LanduseAllocation.cs" />
+    <Compile Include="Planning\RegulatoryPlan\Model_FARAllocation.cs" />
+    <Compile Include="Planning\RegulatoryPlan\Model_LanduseRationality.cs" />
+    <Compile Include="Planning\SpaceSyntax\GraphBuilder3Df.cs" />
+    <Compile Include="Planning\SpaceSyntax\GraphBuilder3DS.cs" />
+    <Compile Include="Planning\SpaceSyntax\GraphBuilder3D.cs" />
+    <Compile Include="Planning\SpaceSyntax\GraphBuilder.cs" />
+    <Compile Include="Planning\SpaceSyntax\Rh_GraphBuilder.cs" />
+    <Compile Include="Planning\SpaceSyntax\RoadsSplitter3Df.cs" />
+    <Compile Include="Planning\SpaceSyntax\SpaceSyntaxComputing3D.cs" />
+    <Compile Include="Planning\SpaceSyntax\SpaceSyntaxComputing.cs" />
+    <Compile Include="Planning\SpaceSyntax\RoadsSplitter3D.cs" />
+    <Compile Include="Planning\SpaceSyntax\Rh_RoadsSplitter.cs" />
+    <Compile Include="Planning\SpatialAnalysis\001_Geometry2D\Point.cs" />
+    <Compile Include="Planning\SpatialAnalysis\001_Geometry2D\Poly2DCreation.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\CuttingPreparation.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\Intersection\Buildings.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\Intersection\Road.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\Intersection\RoadIntrBuildings.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\MeshCreation.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\PlanktonStruct\Extension.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\PlanktonStruct\PlanktonFace.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\PlanktonStruct\PlanktonFaceList.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\PlanktonStruct\PlanktonHalfedge.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\PlanktonStruct\PlanktonHalfedgeList.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\PlanktonStruct\PlanktonMesh.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\PlanktonStruct\PlanktonVertex.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\PlanktonStruct\PlanktonVertexList.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\PlanktonStruct\PlanktonXYZ.cs" />
+    <Compile Include="Planning\SpatialAnalysis\002_Geometry3D\Triangulator.cs" />
+    <Compile Include="Planning\SpatialAnalysis\RhinoToolManager.cs" />
+    <Compile Include="Planning\SpatialAnalysis\VisualGraphBuilder.cs" />
+    <Compile Include="Planning\SpatialAnalysis\VisualGraphBuilderWithAngular.cs" />
+    <Compile Include="Planning\SpatialAnalysis\VisualSyntaxComputing.cs" />
+    <Compile Include="Planning\Sustainability\IndexCalculation.cs" />
+    <Compile Include="Planning\Sustainability\InfoFromXML_BB.cs" />
+    <Compile Include="Planning\Sustainability\InfoFromXML_Population.cs" />
+    <Compile Include="Planning\UrbanDesign\BuildingGeometry.cs" />
+    <Compile Include="Planning\UrbanDesign\BuildingParameters.cs" />
+    <Compile Include="Planning\UrbanDesign\BuildingType.cs" />
+    <Compile Include="Planning\UrbanDesign\SiteBoundingRect.cs" />
+    <Compile Include="Planning\UrbanDesign\DesignCalculator.cs" />
+    <Compile Include="Planning\UrbanDesign\DesignDatabase.cs" />
+    <Compile Include="Planning\UrbanDesign\DesignToolbox.cs" />
+    <Compile Include="Planning\UrbanDesign\DesignNonResidential.cs" />
+    <Compile Include="Planning\UrbanDesign\DesignResidential.cs" />
+    <Compile Include="Planning\UrbanDesign\DesignResult.cs" />
+    <Compile Include="Planning\UrbanDesign\SiteMinimumRectangle.cs" />
+    <Compile Include="Planning\UrbanDesign\SiteTrees.cs" />
+    <Compile Include="Planning\UrbanDesign\SplitSitesParallelly.cs" />
+    <Compile Include="Planning\UrbanDesign\SunCalculator.cs" />
+    <Compile Include="Planning\UrbanDesign\DesignUtilities.cs" />
+    <Compile Include="Planning\UrbanDesign\Toolbox.cs" />
+    <Compile Include="Planning\Utility\CustomException.cs" />
+    <Compile Include="Planning\Utility\DataCleaning.cs" />
+    <Compile Include="Algorithms\Geometry3D\GeometryComparer3D.cs" />
+    <Compile Include="Algorithms\Geometry3D\LineStringSnapper3D.cs" />
+    <Compile Include="Algorithms\Geometry3D\PointComparer3D.cs" />
+    <Compile Include="Planning\Utility\Extensions.cs" />
+    <Compile Include="Planning\Utility\PrecisionSetting.cs" />
+    <Compile Include="Planning\Water\CaculateJunctionDemand.cs" />
+    <Compile Include="Planning\Water\NetworkOptimization.cs" />
+    <Compile Include="Planning\Water\ReadInpFile.cs" />
+    <Compile Include="Planning\Water\WaterNetComponents.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Traffic\Interface.cs" />
+    <Compile Include="Traffic\StatsAnalysis.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ExternalEngines\EnergyPlus\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Planning\UrbanDesign\SiteParameters.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExternalEngines\Epanet\epanet2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="UrbanXTools.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IO\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UrbanXWrapper\UrbanXWrapper.csproj">
+      <Project>{080c40c1-52b9-499c-986b-0a4eaf63d589}</Project>
+      <Name>UrbanXWrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\RhinoCommon.6.23.20055.13111\build\net45\RhinoCommon.targets" Condition="Exists('..\packages\RhinoCommon.6.23.20055.13111\build\net45\RhinoCommon.targets')" />
+  <Import Project="..\packages\RhinoCommon.6.9.18271.20591\build\net45\RhinoCommon.targets" Condition="Exists('..\packages\RhinoCommon.6.9.18271.20591\build\net45\RhinoCommon.targets')" />
+</Project>

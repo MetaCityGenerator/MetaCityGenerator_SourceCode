@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UrbanX.DataStructures.Graphs.WeightedEdge&lt;TVertex&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAAAAEAAAACAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Graphs\WeightedEdge.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UrbanX.DataStructures.Utility.Comparers" Collapsed="true">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAACAAAIAAAQAAAAAAACIABAAAAA=</HashCode>
+      <FileName>DataStructures\Utility\Comparers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UrbanX.DataStructures.Graphs.UnweightedEdge&lt;TVertex&gt;">
+    <Position X="3.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAAAAEAAAACAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Graphs\UnweightedEdge.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UrbanX.DataStructures.Graphs.UndirectedDenseGraph&lt;T&gt;">
+    <Position X="11.25" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEkAIAAAAAICABCARgkBgREAGIACAAFMAABEAAAAA=</HashCode>
+      <FileName>DataStructures\Graphs\UndirectedDenseGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UrbanX.DataStructures.Graphs.UndirectedWeightedSparseGraph&lt;T&gt;">
+    <Position X="20" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>CAAFgAIAACAAICABGAQgkBgREAGIACCAFMBAIEQAIAA=</HashCode>
+      <FileName>DataStructures\Graphs\UndirectedWeightedSparseGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UrbanX.DataStructures.Graphs.DirectedWeightedSparseGraph&lt;T&gt;">
+    <Position X="23.5" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAFgAIAAAAAICABGAQgkBgREAGIACCAFMBAIEQAIAA=</HashCode>
+      <FileName>DataStructures\Graphs\DirectedWeightedSparseGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UrbanX.DataStructures.Graphs.DirectedSparseGraph&lt;T&gt;">
+    <Position X="17.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAEgAIAACAAICABCAQgkBgREAGIACAAFMAAAEQAAAA=</HashCode>
+      <FileName>DataStructures\Graphs\DirectedSparseGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UrbanX.DataStructures.Graphs.UndirectedSparseGraph&lt;T&gt;">
+    <Position X="14.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAEgAIAAAAAICABCAQgkBgREACIACAAFMAAAEQAAAA=</HashCode>
+      <FileName>DataStructures\Graphs\UndirectedSparseGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UrbanX.DataStructures.Heaps.MinPriorityQueue&lt;TKey, TPriority&gt;">
+    <Position X="33.25" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>gCBAAAAAAAAAAAQAAAAABAQAAAABAAAAAAEAAQBQAAA=</HashCode>
+      <FileName>DataStructures\Heaps\MinPriorityQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UrbanX.DataStructures.Heaps.BinaryMinHeap&lt;T&gt;">
+    <Position X="30.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAEA0AACgAAAAwAAhAAEAAAAEgBAQBAAAA=</HashCode>
+      <FileName>DataStructures\Heaps\BinaryMinHeap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UrbanX.DataStructures.Heaps.BinaryMaxHeap&lt;T&gt;">
+    <Position X="27.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAEAUAACiQCAAQAAhAAAAAAAAgAAQBAAQE=</HashCode>
+      <FileName>DataStructures\Heaps\BinaryMaxHeap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UrbanX.Algorithms.Graphs.DijkstraShortestPaths&lt;TGraph, TVertex&gt;">
+    <Position X="29.25" Y="13" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAWAABSCAAAAEQAAEAAIAgAAAAAoAAAAAAAA=</HashCode>
+      <FileName>Algorithms\Graphs\DijkstraShortestPaths.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UrbanX.Planning.Water.NetworkOptimization">
+    <Position X="33" Y="13" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAgAAECAAyQAAhAIAAAABAAAAAAAgAABABBAACU=</HashCode>
+      <FileName>Planning\Water\NetworkOptimization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UrbanX.DataStructures.Trees.BinarySearchTree&lt;T&gt;">
+    <Position X="4.5" Y="9.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="UrbanX.DataStructures.Trees.BinarySearchTree&lt;T&gt;.BinarySearchTreePreOrderEnumerator">
+        <TypeIdentifier>
+          <NewMemberFileName>DataStructures\Trees\BinarySearchTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="UrbanX.DataStructures.Trees.BinarySearchTree&lt;T&gt;.BinarySearchTreeInOrderEnumerator">
+        <TypeIdentifier>
+          <NewMemberFileName>DataStructures\Trees\BinarySearchTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="UrbanX.DataStructures.Trees.BinarySearchTree&lt;T&gt;.BinarySearchTreePostOrderEnumerator">
+        <TypeIdentifier>
+          <NewMemberFileName>DataStructures\Trees\BinarySearchTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgBgAEAADAAACDEBAAAQhAQgEAACAAAAQGgBABBQAAU=</HashCode>
+      <FileName>DataStructures\Trees\BinarySearchTree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="UrbanX.DataStructures.Graphs.IEdge&lt;TVertex&gt;">
+    <Position X="0.75" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAEAAAACAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Graphs\IEdge.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UrbanX.DataStructures.Graphs.IGraph&lt;T&gt;">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEgAIAAAAAIAABCAAAkBgRAACIACAAFMAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Graphs\IGraph.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UrbanX.DataStructures.Graphs.IWeightedGraph&lt;T&gt;">
+    <Position X="8.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAACAAAAAAAAAAAAAAAAABAIAAAIAA=</HashCode>
+      <FileName>DataStructures\Graphs\IWeightedGraph.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
