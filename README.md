@@ -27,7 +27,7 @@
 - High quality
 - Sustainable urban development
 ### 3. Developers
-- Tao Yang, Weizhen Luo, Xuhui Lin, Chengru Deng, Yufei Dong
+- Tao Yang, Weizhen Luo, Xuhui Lin, Chengru Deng, Hejin Wang
 ### 4. Translating Contributor
 - Yihan Zhang
 ### 5. Notifications
