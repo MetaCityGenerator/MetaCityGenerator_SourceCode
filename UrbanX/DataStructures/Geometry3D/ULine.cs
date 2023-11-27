@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UrbanX.DataStructures.Geometry3D
+namespace MetaCity.DataStructures.Geometry3D
 {
     [StructLayout(LayoutKind.Auto)]
     [DebuggerDisplay("({_from}, {_to})")]

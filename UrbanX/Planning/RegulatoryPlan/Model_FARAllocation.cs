@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using NetTopologySuite.Geometries;
 
 
-namespace UrbanX.Planning.RegulatoryPlan
+namespace MetaCity.Planning.RegulatoryPlan
 {
     public class Model_FARAllocation
     {

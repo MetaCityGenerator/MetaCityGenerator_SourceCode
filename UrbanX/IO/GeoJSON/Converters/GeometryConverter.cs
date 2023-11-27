@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-using UrbanX.IO.Properties;
+using MetaCity.IO.Properties;
 
 
-namespace UrbanX.IO.GeoJSON.Converters
+namespace MetaCity.IO.GeoJSON.Converters
 {
     internal partial class GeometryConverter : JsonConverter<Geometry>
     {

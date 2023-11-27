@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using UrbanX.DataStructures.Geometry3D;
+using MetaCity.DataStructures.Geometry3D;
 
-namespace UrbanX.Algorithms.Geometry3D
+namespace MetaCity.Algorithms.Geometry3D
 {
 
     public sealed class PolylineSnapper3D

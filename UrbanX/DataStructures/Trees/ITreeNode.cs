@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrbanX.DataStructures.Trees
+namespace MetaCity.DataStructures.Trees
 {
     public interface ITreeNode<T> : IComparable<ITreeNode<T>> where T : IComparable<T>
     {

@@ -3,15 +3,15 @@
 using System;
 using System.Drawing;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
-    public class UrbanXToolsInfo : GH_AssemblyInfo
+    public class MetaCityGeneratorInfo : GH_AssemblyInfo
     {
         public override string Name
         {
             get
             {
-                return "UrbanXTools";
+                return "MetaCityGenerator";
             }
         }
         public override Bitmap Icon
@@ -27,7 +27,7 @@ namespace UrbanXTools
             get
             {
                 //Return a short string describing the purpose of this GHA library.
-                return "UrbanXTools GH plugin for urban designers";
+                return "MetaCityGenerator GH plugin for urban designers";
             }
         }
 
@@ -61,7 +61,7 @@ namespace UrbanXTools
             get
             {
                 //Return a string representing your preferred contact details.
-                return "urbanxlab.net";
+                return "MetaCitylab.net";
             }
         }
     }

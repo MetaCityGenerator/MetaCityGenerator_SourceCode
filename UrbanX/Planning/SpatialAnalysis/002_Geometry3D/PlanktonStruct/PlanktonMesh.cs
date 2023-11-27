@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace UrbanX.Planning.SpatialAnalysis
+namespace MetaCity.Planning.SpatialAnalysis
 {
     /// <summary>
     /// This is the main class that describes a plankton mesh.

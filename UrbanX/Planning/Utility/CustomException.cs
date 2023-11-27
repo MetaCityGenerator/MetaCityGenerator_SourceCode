@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UrbanX.Planning.Utility
+namespace MetaCity.Planning.Utility
 {
     public class CustomException : ApplicationException
     {

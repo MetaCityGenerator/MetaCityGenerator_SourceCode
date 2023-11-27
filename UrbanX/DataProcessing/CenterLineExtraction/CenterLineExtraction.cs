@@ -8,9 +8,9 @@ using NetTopologySuite.Simplify;
 using NetTopologySuite.Precision;
 using DelaunatorSharp;
 using System.Collections.Concurrent;
-using UrbanXWrapper;
+using MetaCityWrapper;
 
-namespace UrbanX.DataProcessing
+namespace MetaCity.DataProcessing
 {
     public class CenterLineExtraction
     {

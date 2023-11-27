@@ -12,7 +12,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace UrbanX.DataStructures.Graphs
+namespace MetaCity.DataStructures.Graphs
 {
     /// <summary>
     /// The Directed Sparse Graph Data Structure.

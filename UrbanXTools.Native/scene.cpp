@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "scene.h"
 
-namespace urbanxnative {
+namespace MetaCitynative {
 
 	void Scene::Init() {
 		embreeDevice = initializeDevice();

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 using NetTopologySuite.Geometries;
 
-namespace UrbanX.Algorithms.Geometry3D
+namespace MetaCity.Algorithms.Geometry3D
 { 
     /// <summary>
     /// The custom comparer for 3d geometry. This comparer could be used in HashSet, Dictionary.

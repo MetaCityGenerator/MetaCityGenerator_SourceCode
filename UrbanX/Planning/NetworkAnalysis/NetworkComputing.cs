@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UrbanX.DataStructures.Geometry3D;
-using UrbanX.DataStructures.Graphs;
-using UrbanX.Planning.SpaceSyntax;
+using MetaCity.DataStructures.Geometry3D;
+using MetaCity.DataStructures.Graphs;
+using MetaCity.Planning.SpaceSyntax;
 
-namespace UrbanX.Planning.NetworkAnalysis
+namespace MetaCity.Planning.NetworkAnalysis
 {
     public sealed class NetworkComputing
     {

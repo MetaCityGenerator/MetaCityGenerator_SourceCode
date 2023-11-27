@@ -6,7 +6,7 @@ using System.Numerics;
 using System.Runtime.CompilerServices;
 
 
-namespace UrbanX.DataStructures.Geometry3D
+namespace MetaCity.DataStructures.Geometry3D
 {
     [DebuggerDisplay("({First.ToString()}, {Last.ToString()})")]
     public sealed class UPolyline : IEquatable<UPolyline>

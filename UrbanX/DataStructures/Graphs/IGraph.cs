@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace UrbanX.DataStructures.Graphs
+namespace MetaCity.DataStructures.Graphs
 {
     public interface IGraph<T> where T : IComparable<T>
     {

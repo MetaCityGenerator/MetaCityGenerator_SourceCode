@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 
-using UrbanX.Algorithms.Mathematics;
-using UrbanX.DataStructures.Geometry;
-using UrbanX.DataStructures.Heaps;
+using MetaCity.Algorithms.Mathematics;
+using MetaCity.DataStructures.Geometry;
+using MetaCity.DataStructures.Heaps;
 
 
 
-namespace UrbanX.Algorithms.Geometry2D
+namespace MetaCity.Algorithms.Geometry2D
 {
     /// <summary>
     /// Implement FortunesAlgorithm

@@ -4,9 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.DataStructures.Graphs;
+using MetaCity.DataStructures.Graphs;
 
-namespace UrbanX.Planning.FacilityLocation
+namespace MetaCity.Planning.FacilityLocation
 {
     /// <summary>
     /// Construct an undirected weighted graph for road network.

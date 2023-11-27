@@ -9,11 +9,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.Algorithms.Mathematics;
-using UrbanX.DataStructures.Trees;
-using UrbanX.Planning.Utility;
+using MetaCity.Algorithms.Mathematics;
+using MetaCity.DataStructures.Trees;
+using MetaCity.Planning.Utility;
 
-namespace UrbanX.Planning.UrbanDesign
+namespace MetaCity.Planning.UrbanDesign
 {
     public static class Toolbox
     {

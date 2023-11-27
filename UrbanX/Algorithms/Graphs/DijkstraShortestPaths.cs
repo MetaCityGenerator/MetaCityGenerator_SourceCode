@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.DataStructures.Graphs;
-using UrbanX.DataStructures.Heaps;
+using MetaCity.DataStructures.Graphs;
+using MetaCity.DataStructures.Heaps;
 
 
-namespace UrbanX.Algorithms.Graphs
+namespace MetaCity.Algorithms.Graphs
 {
     /// <summary>
     /// Computes Dijkstra's Shortest-paths for Directed Weighted Graphs from a single-source to all destinations.

@@ -8,16 +8,16 @@ using System.Windows.Forms;
 using Grasshopper.Kernel;
 using Rhino;
 using Rhino.Geometry;
-using UrbanX.Planning.Sustainability;
+using MetaCity.Planning.Sustainability;
 using System.Threading;
 using Eto.Threading;
 using Thread = System.Threading.Thread;
 using System.Text;
 using System.Threading.Tasks;
-using UrbanX.Traffic;
-using UrbanXTools.Properties;
+using MetaCity.Traffic;
+using MetaCityGenerator.Properties;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class Traffic_GenerateDemandComponent : GH_Component
     {
@@ -29,7 +29,7 @@ namespace UrbanXTools
         public Traffic_GenerateDemandComponent()
           : base("Traffic_GenerateDemand", "TR_GD",
                 "Generate MATSIM Traffic Demand",
-              "UrbanX", "8_Traffic")
+              "MetaCity", "8_Traffic")
         {
         }
 

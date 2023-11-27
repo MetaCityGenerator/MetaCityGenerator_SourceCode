@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrbanX.DataStructures.Trees
+namespace MetaCity.DataStructures.Trees
 {
     /// <summary>
     /// The binary search tree node.

@@ -3,7 +3,7 @@ using Grasshopper.Kernel;
 
 using System.Drawing;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     /// <作用>
     /// 更改电池颜色

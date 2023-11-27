@@ -4,10 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.DataStructures.Graphs;
+using MetaCity.DataStructures.Graphs;
 
 
-namespace UrbanX.Planning.SpaceSyntax
+namespace MetaCity.Planning.SpaceSyntax
 {
 
 

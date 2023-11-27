@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrbanX.DataStructures.Geometry
+namespace MetaCity.DataStructures.Geometry
 {
     interface IFortuneEvent : IComparable<IFortuneEvent>
     {

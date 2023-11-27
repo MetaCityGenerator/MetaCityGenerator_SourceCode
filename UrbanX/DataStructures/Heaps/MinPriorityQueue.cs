@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using UrbanX.DataStructures.Utility;
+using MetaCity.DataStructures.Utility;
 
-namespace UrbanX.DataStructures.Heaps
+namespace MetaCity.DataStructures.Heaps
 {
     /// <summary>
     /// Implements the priority Queue Data Structure.

@@ -11,7 +11,7 @@ using System.Text.Json.Serialization;
 /// <summary>
 /// Using NetTopologySuite.IO.GeoJSON and system.text.json.
 /// </summary>
-namespace UrbanX.IO.GeoJSON.Converters
+namespace MetaCity.IO.GeoJSON.Converters
 {
     /// <inheritdoc cref="JsonConverterFactory"/>>
     public class GeoJsonConverterFactory : JsonConverterFactory

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace UrbanX.ExternalEngines.Epanet
+namespace MetaCity.ExternalEngines.Epanet
 {
     public enum ControlType
     {

@@ -7,7 +7,7 @@ using Mawan.Algorithms;
 using Mawan.DataStructures;
 
 
-namespace UrbanX.DataProcessing
+namespace MetaCity.DataProcessing
 {
     public class DeleteShortSegments
     {

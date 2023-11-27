@@ -4,10 +4,10 @@ using Grasshopper;
 using Grasshopper.Kernel;
 using Grasshopper.Kernel.Data;
 using Rhino.Geometry;
-using UrbanX.Traffic;
-using UrbanXTools.Properties;
+using MetaCity.Traffic;
+using MetaCityGenerator.Properties;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class Traffic_LinkStatsComponent : GH_Component
     {
@@ -17,7 +17,7 @@ namespace UrbanXTools
         public Traffic_LinkStatsComponent()
           : base("Traffic_LinkStats", "TR_Links",
                 "Extract link data from linkstats.txt.gz",
-              "UrbanX", "8_Traffic")
+              "MetaCity", "8_Traffic")
         {
         }
 

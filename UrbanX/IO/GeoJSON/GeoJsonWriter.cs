@@ -5,9 +5,9 @@ using System.Text.Json;
 
 
 
-using UrbanX.IO.GeoJSON.Converters;
+using MetaCity.IO.GeoJSON.Converters;
 
-namespace UrbanX.IO.GeoJSON
+namespace MetaCity.IO.GeoJSON
 {
     public class GeoJsonWriter
     {

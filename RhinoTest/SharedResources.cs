@@ -5,19 +5,19 @@ using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
 
-using UrbanXTools.Properties;
+using MetaCityGenerator.Properties;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public static class SharedResources
     {
         public static string TimerVersion = "v." + DateTime.Now.ToShortDateString();
-        public static string AssemblyName = "UrbanX";
+        public static string AssemblyName = "MetaCity";
         public static Bitmap AssemblyIcon = Resources.AssemblyIcon;
-        public static string AssemblyDescription = "UrbanXTools GH plugin for urban designers";
+        public static string AssemblyDescription = "MetaCityGenerator GH plugin for urban designers";
         public static string AssemblyAuthor = "Luo, Lin, Deng, Yang";
         public static Guid AssemblyGuid = new Guid("C2B39A46-47F0-45BF-A933-727D5FE575E5");
-        public static string AssemblyContacts = "UrbanX Lab";
+        public static string AssemblyContacts = "MetaCity Lab";
 
 
         public static XElement GetXML(string moduleName, string componentId)

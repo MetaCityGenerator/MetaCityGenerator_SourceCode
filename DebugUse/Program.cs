@@ -36,10 +36,10 @@ namespace DebugUse
             //OutputForm form = new OutputForm();
 
             //// 启动.jar文件并重定向输出
-            //string jarPath = @"C:\Users\AlphonsePC\AppData\Roaming\Grasshopper\Libraries\UrbanXTools\matsim_preparation_jar\generate_demand\matsim_preparation.jar"; // 替换为你的.jar文件的路径
+            //string jarPath = @"C:\Users\AlphonsePC\AppData\Roaming\Grasshopper\Libraries\MetaCityGenerator\matsim_preparation_jar\generate_demand\matsim_preparation.jar"; // 替换为你的.jar文件的路径
             //string inputPath = @"D:\Code\114_temp\008_CodeCollection\005_java\matsim_data_backup\debug\tq38_london_original\001_input\"; // 替换为你的输入文件的路径
-            //string outputPath = @"D:\Code\114_temp\008_CodeCollection\005_java\matsim_data_backup\debug\tq38_london_strategy_urbanxtools\"; // 替换为你的输出文件的路径
-            //string indexPath = @"C:\Users\AlphonsePC\AppData\Roaming\Grasshopper\Libraries\UrbanXTools\data\indexCalculation.xml"; // 替换为你的索引文件的路径
+            //string outputPath = @"D:\Code\114_temp\008_CodeCollection\005_java\matsim_data_backup\debug\tq38_london_strategy_MetaCityGenerator\"; // 替换为你的输出文件的路径
+            //string indexPath = @"C:\Users\AlphonsePC\AppData\Roaming\Grasshopper\Libraries\MetaCityGenerator\data\indexCalculation.xml"; // 替换为你的索引文件的路径
 
             //Process process = new Process();
             //process.StartInfo.FileName = "java";

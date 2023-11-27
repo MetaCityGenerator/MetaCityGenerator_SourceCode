@@ -7,7 +7,7 @@ using System.Linq;
 using NTS = NetTopologySuite;
 using Rh = Rhino.Geometry;
 
-namespace UrbanX.Planning.SpatialAnalysis.Extension
+namespace MetaCity.Planning.SpatialAnalysis.Extension
 {
     public static class Extension
     {

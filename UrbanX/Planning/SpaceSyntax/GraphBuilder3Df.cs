@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using UrbanX.DataStructures.Set;
-using UrbanX.DataStructures.Graphs;
-using UrbanX.Planning.Utility;
-using UrbanX.DataStructures.Geometry3D;
+using MetaCity.DataStructures.Set;
+using MetaCity.DataStructures.Graphs;
+using MetaCity.Planning.Utility;
+using MetaCity.DataStructures.Geometry3D;
 using System.Numerics;
 
-namespace UrbanX.Planning.SpaceSyntax
+namespace MetaCity.Planning.SpaceSyntax
 {
   // using float and vector.
     public sealed class GraphBuilder3Df

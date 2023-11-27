@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace UrbanX.Algorithms.Clustering
+namespace MetaCity.Algorithms.Clustering
 {
     public class ClusterPair : IEquatable<ClusterPair>, IDisposable
     {

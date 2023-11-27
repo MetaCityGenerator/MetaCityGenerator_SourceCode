@@ -1,8 +1,8 @@
 ﻿using System;
 
-using UrbanX.DataStructures.Trees;
+using MetaCity.DataStructures.Trees;
 
-namespace UrbanX.DataStructures.Utility
+namespace MetaCity.DataStructures.Utility
 {
     public static class Comparers
     {

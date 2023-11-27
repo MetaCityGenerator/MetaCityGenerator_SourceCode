@@ -8,12 +8,12 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Numerics;
-using UrbanX.Planning.SpatialAnalysis.Extension;
-using UrbanXWrapper;
+using MetaCity.Planning.SpatialAnalysis.Extension;
+using MetaCityWrapper;
 using NTS = NetTopologySuite;
 using Rh = Rhino.Geometry;
 
-namespace UrbanX.Planning.SpatialAnalysis
+namespace MetaCity.Planning.SpatialAnalysis
 {
     public enum VisDataType
     {

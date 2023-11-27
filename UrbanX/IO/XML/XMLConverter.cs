@@ -7,7 +7,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace UrbanX.IO.XML
+namespace MetaCity.IO.XML
 {
     public class XMLConverter
     {

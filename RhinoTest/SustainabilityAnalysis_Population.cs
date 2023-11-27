@@ -9,17 +9,17 @@ using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
 
-using UrbanX.Planning.Sustainability;
+using MetaCity.Planning.Sustainability;
 
-using UrbanXTools.Properties;
+using MetaCityGenerator.Properties;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class SustainabilityAnalysis_Population : GH_Component
     {
         private XElement _meta;
 
-        // Module name is the subcatagory of UrbanXTools, used for query xml data.
+        // Module name is the subcatagory of MetaCityGenerator, used for query xml data.
         private readonly string _moduleName = "SustainabilityAnalysis";
         // componentId is used for querying xml data in current module.
         private readonly string _componentId = "SustainabilityAnalysis_Population";
@@ -46,7 +46,7 @@ namespace UrbanXTools
             List<XElement> list = _meta.Element("inputs").Elements("input").ToList();
 
             pManager.AddBrepParameter((string)list[0].Attribute("name"), (string)list[0].Attribute("nickname"), (string)list[0].Attribute("description"), GH_ParamAccess.list);
-            pManager.AddTextParameter("XMLPath(Optional)", "Path", "If this component does not work, Please specify the path manually.\n the file is located in [AppData/Roaming/Grasshopper/Libraries/UrbanXTools/data/indexCalculation.xml]", GH_ParamAccess.item, "1");
+            pManager.AddTextParameter("XMLPath(Optional)", "Path", "If this component does not work, Please specify the path manually.\n the file is located in [AppData/Roaming/Grasshopper/Libraries/MetaCityGenerator/data/indexCalculation.xml]", GH_ParamAccess.item, "1");
             pManager[1].Optional = false;
         }
 

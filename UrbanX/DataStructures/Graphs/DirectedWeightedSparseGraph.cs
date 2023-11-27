@@ -13,10 +13,10 @@
 using System;
 using System.Collections.Generic;
 
-using UrbanX.Algorithms.Utility;
-using UrbanX.DataStructures.Utility;
+using MetaCity.Algorithms.Utility;
+using MetaCity.DataStructures.Utility;
 
-namespace UrbanX.DataStructures.Graphs
+namespace MetaCity.DataStructures.Graphs
 {
     /// <summary>
     /// The Directed Weighted Sparse Graph Data Structure.

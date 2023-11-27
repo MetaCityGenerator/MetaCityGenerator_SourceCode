@@ -14,9 +14,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.DataStructures.Set;
+using MetaCity.DataStructures.Set;
 
-namespace UrbanX.DataStructures.Graphs
+namespace MetaCity.DataStructures.Graphs
 {
     public sealed class SpaceSyntaxGraph
     {

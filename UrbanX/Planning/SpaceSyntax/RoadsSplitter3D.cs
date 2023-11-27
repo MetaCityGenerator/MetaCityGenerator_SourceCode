@@ -5,12 +5,12 @@ using System.Linq;
 
 using NetTopologySuite.Geometries;
 
-using UrbanX.Algorithms.Geometry3D;
-using UrbanX.Algorithms.Trees;
-using UrbanX.DataStructures.Heaps;
-using UrbanX.Planning.Utility;
+using MetaCity.Algorithms.Geometry3D;
+using MetaCity.Algorithms.Trees;
+using MetaCity.DataStructures.Heaps;
+using MetaCity.Planning.Utility;
 
-namespace UrbanX.Planning.SpaceSyntax
+namespace MetaCity.Planning.SpaceSyntax
 {
     /// <summary>
     /// Two event types: Start-event and End-event.

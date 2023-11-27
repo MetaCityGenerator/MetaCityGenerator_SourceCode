@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.Algorithms.Geometry3D;
-using UrbanX.Algorithms.Trees;
-using UrbanX.DataStructures.Geometry3D;
-using UrbanX.DataStructures.Heaps;
+using MetaCity.Algorithms.Geometry3D;
+using MetaCity.Algorithms.Trees;
+using MetaCity.DataStructures.Geometry3D;
+using MetaCity.DataStructures.Heaps;
 
 
-namespace UrbanX.Planning.SpaceSyntax
+namespace MetaCity.Planning.SpaceSyntax
 {
     public class RoadsSplitter3Df
     {

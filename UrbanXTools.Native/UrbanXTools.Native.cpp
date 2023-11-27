@@ -1,9 +1,9 @@
-// UrbanXTools.Native.cpp : Defines the initialization routines for the DLL.
+// MetaCityGenerator.Native.cpp : Defines the initialization routines for the DLL.
 //
 
 #include "pch.h"
 #include "framework.h"
-#include "UrbanXTools.Native.h"
+#include "MetaCityGenerator.Native.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -34,29 +34,29 @@
 //		details.
 //
 
-// CUrbanXToolsNativeApp
+// CMetaCityGeneratorNativeApp
 
-BEGIN_MESSAGE_MAP(CUrbanXToolsNativeApp, CWinApp)
+BEGIN_MESSAGE_MAP(CMetaCityGeneratorNativeApp, CWinApp)
 END_MESSAGE_MAP()
 
 
-// CUrbanXToolsNativeApp construction
+// CMetaCityGeneratorNativeApp construction
 
-CUrbanXToolsNativeApp::CUrbanXToolsNativeApp()
+CMetaCityGeneratorNativeApp::CMetaCityGeneratorNativeApp()
 {
 	// TODO: add construction code here,
 	// Place all significant initialization in InitInstance
 }
 
 
-// The one and only CUrbanXToolsNativeApp object
+// The one and only CMetaCityGeneratorNativeApp object
 
-CUrbanXToolsNativeApp theApp;
+CMetaCityGeneratorNativeApp theApp;
 
 
-// CUrbanXToolsNativeApp initialization
+// CMetaCityGeneratorNativeApp initialization
 
-BOOL CUrbanXToolsNativeApp::InitInstance()
+BOOL CMetaCityGeneratorNativeApp::InitInstance()
 {
 	CWinApp::InitInstance();
 

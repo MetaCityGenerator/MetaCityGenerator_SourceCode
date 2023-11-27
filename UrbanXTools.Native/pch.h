@@ -12,22 +12,22 @@
 
 // Windows build
 #if defined (_WIN32)
-#if defined (URBANXNATIVE_DLL_EXPORTS)
-#define URBANXNATIVE_CPP_CLASS __declspec(dllexport)
-#define URBANXNATIVE_CPP_FUNCTION __declspec(dllexport)
-#define URBANXNATIVE_C_FUNCTION extern "C" __declspec(dllexport)
+#if defined (MetaCityNATIVE_DLL_EXPORTS)
+#define MetaCityNATIVE_CPP_CLASS __declspec(dllexport)
+#define MetaCityNATIVE_CPP_FUNCTION __declspec(dllexport)
+#define MetaCityNATIVE_C_FUNCTION extern "C" __declspec(dllexport)
 #else
-#define URBANXNATIVE_CPP_CLASS __declspec(dllimport)
-#define URBANXNATIVE_CPP_FUNCTION __declspec(dllimport)
-#define URBANXNATIVE_C_FUNCTION extern "C" __declspec(dllimport)
-#endif // URBANXNATIVE_DLL_EXPORTS
+#define MetaCityNATIVE_CPP_CLASS __declspec(dllimport)
+#define MetaCityNATIVE_CPP_FUNCTION __declspec(dllimport)
+#define MetaCityNATIVE_C_FUNCTION extern "C" __declspec(dllimport)
+#endif // MetaCityNATIVE_DLL_EXPORTS
 #endif // _WIN32
 
 // Apple build
 #if defined(__APPLE__)
-#define URBANXNATIVE_CPP_CLASS __attribute__ ((visibility ("default")))
-#define URBANXNATIVE_CPP_FUNCTION __attribute__ ((visibility ("default")))
-#define URBANXNATIVE_C_FUNCTION extern "C" __attribute__ ((visibility ("default")))
+#define MetaCityNATIVE_CPP_CLASS __attribute__ ((visibility ("default")))
+#define MetaCityNATIVE_CPP_FUNCTION __attribute__ ((visibility ("default")))
+#define MetaCityNATIVE_C_FUNCTION extern "C" __attribute__ ((visibility ("default")))
 #endif // __APPLE__
 
 //EMBREE Library

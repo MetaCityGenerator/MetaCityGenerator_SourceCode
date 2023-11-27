@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.Algorithms.Utility;
+using MetaCity.Algorithms.Utility;
 
-namespace UrbanX.DataStructures.Heaps
+namespace MetaCity.DataStructures.Heaps
 {
     /// <summary>
     /// Minimum Heap Data Structure.

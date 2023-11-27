@@ -1,4 +1,4 @@
-﻿namespace UrbanX.Planning.Water
+﻿namespace MetaCity.Planning.Water
 {
     internal class Junctions
     {

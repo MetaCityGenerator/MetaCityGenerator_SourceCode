@@ -9,11 +9,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using UrbanX.Algorithms.Graphs;
-using UrbanX.DataStructures.Graphs;
-using UrbanX.Planning.Utility;
+using MetaCity.Algorithms.Graphs;
+using MetaCity.DataStructures.Graphs;
+using MetaCity.Planning.Utility;
 
-namespace UrbanX.Planning.FacilityLocation
+namespace MetaCity.Planning.FacilityLocation
 {
     public class Nts_CoverageComputing
     {

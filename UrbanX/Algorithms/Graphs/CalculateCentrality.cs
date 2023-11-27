@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using UrbanX.DataStructures.Graphs;
-using UrbanX.DataStructures.Heaps;
+using MetaCity.DataStructures.Graphs;
+using MetaCity.DataStructures.Heaps;
 
-namespace UrbanX.Algorithms.Graphs
+namespace MetaCity.Algorithms.Graphs
 {
     /// <summary>
     /// Calculating the centrality in a graph without radius.

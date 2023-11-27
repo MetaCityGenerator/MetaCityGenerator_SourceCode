@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-namespace UrbanX.Application.Intersection
+namespace MetaCity.Application.Intersection
 {
     public class Buildings
     {

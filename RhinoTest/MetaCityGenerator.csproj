@@ -8,8 +8,8 @@
     <ProjectGuid>{E19D0036-94FE-4A07-96AC-B6A5BA6FAA99}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UrbanXTools</RootNamespace>
-    <AssemblyName>UrbanXTools</AssemblyName>
+    <RootNamespace>MetaCityGenerator</RootNamespace>
+    <AssemblyName>MetaCityGenerator</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -167,13 +167,13 @@
     <Compile Include="VisibilityAnalysis_VisualSyntaxComputing.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UrbanXWrapper\UrbanXWrapper.csproj">
+    <ProjectReference Include="..\UrbanXWrapper\MetaCityWrapper.csproj">
       <Project>{080c40c1-52b9-499c-986b-0a4eaf63d589}</Project>
-      <Name>UrbanXWrapper</Name>
+      <Name>MetaCityWrapper</Name>
     </ProjectReference>
-    <ProjectReference Include="..\UrbanX\UrbanX.csproj">
+    <ProjectReference Include="..\UrbanX\MetaCity.csproj">
       <Project>{b4e7a58a-ee66-4f47-acaa-c97550c98bf8}</Project>
-      <Name>UrbanX</Name>
+      <Name>MetaCity</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrbanX.Planning.SpatialAnalysis
+namespace MetaCity.Planning.SpatialAnalysis
 {
     /// <summary>
     /// Represents a face in Plankton's halfedge mesh data structure.

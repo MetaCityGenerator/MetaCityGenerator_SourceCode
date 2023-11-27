@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Numerics;
 using Grasshopper.Kernel;
 using Rhino.Geometry;
-using UrbanXWrapper;
+using MetaCityWrapper;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class Debug_RayTracingComponent : GH_Component
     {
@@ -15,7 +15,7 @@ namespace UrbanXTools
         public Debug_RayTracingComponent()
           : base("EmbreeRayHit", "RayHit",
                 "Test rayhit in rhino gh",
-              "UrbanX", "7_Utility")
+              "MetaCity", "7_Utility")
         {
         }
         public override GH_Exposure Exposure => GH_Exposure.hidden;

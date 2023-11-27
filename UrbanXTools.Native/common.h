@@ -3,7 +3,7 @@
 #include <cstdio>
 #include <embree3/rtcore.h>
 
-namespace urbanxnative {
+namespace MetaCitynative {
 	inline void errorFunction(void* userPtr, enum RTCError error, const char* str) {
 		printf("error %d: %s\n", error, str);
 	}

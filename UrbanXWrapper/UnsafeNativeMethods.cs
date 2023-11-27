@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UrbanXWrapper
+namespace MetaCityWrapper
 {
     internal class UnsafeNativeMethods
     {
-        private const string DLL_NAME = "UrbanXTools.Native.dll";
+        private const string DLL_NAME = "MetaCityGenerator.Native.dll";
         [DllImport(DLL_NAME, CallingConvention = CallingConvention.Cdecl)]
         internal static extern IntPtr InitScene();
 

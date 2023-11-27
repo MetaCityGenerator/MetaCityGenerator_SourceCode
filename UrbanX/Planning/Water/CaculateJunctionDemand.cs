@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using UrbanX.Algorithms.Geometry2D;
-using UrbanX.DataStructures.Geometry;
+using MetaCity.Algorithms.Geometry2D;
+using MetaCity.DataStructures.Geometry;
 
-namespace UrbanX.Planning.Water
+namespace MetaCity.Planning.Water
 {
     public enum DemandCalculateMethod
     {

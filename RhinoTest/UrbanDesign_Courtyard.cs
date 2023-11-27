@@ -9,23 +9,23 @@ using Grasshopper.Kernel;
 
 using Rhino.Geometry;
 
-using UrbanX.IO.OpenNURBS;
-using UrbanX.IO.GeoJSON;
+using MetaCity.IO.OpenNURBS;
+using MetaCity.IO.GeoJSON;
 
 using NetTopologySuite.Geometries;
-using UrbanX.Planning.UrbanDesign;
+using MetaCity.Planning.UrbanDesign;
 using NetTopologySuite.Features;
-using UrbanX.DataProcessing;
+using MetaCity.DataProcessing;
 using Grasshopper;
 using Grasshopper.Kernel.Data;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class UrbanDesign_Courtyard : GH_Component
     {
         private XElement _meta;
 
-        // Module name is the subcatagory of UrbanXTools, used for query xml data.
+        // Module name is the subcatagory of MetaCityGenerator, used for query xml data.
         private readonly string _moduleName = "Utility";
         // componentId is used for querying xml data in current module.
         private readonly string _componentId = "Utility_To3DJson";
@@ -44,7 +44,7 @@ namespace UrbanXTools
             this.Name = "UrbanDesign_CourtYard_T2";
             this.NickName = "UD_CourtYard_T2";
             this.Description = "Generate CourtYardType2";
-            this.Category = "UrbanX";
+            this.Category = "MetaCity";
             this.SubCategory = "3_UrbanDesign";
         }
 

@@ -1,5 +1,5 @@
 ﻿
-namespace UrbanX.IO.GeoJSON
+namespace MetaCity.IO.GeoJSON
 {
 
     /// <summary>

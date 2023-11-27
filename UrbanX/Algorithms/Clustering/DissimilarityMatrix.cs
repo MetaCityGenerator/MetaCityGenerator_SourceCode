@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using UrbanX.DataStructures.Heaps;
+using MetaCity.DataStructures.Heaps;
 
 
 
-namespace UrbanX.Algorithms.Clustering
+namespace MetaCity.Algorithms.Clustering
 {
     public class DissimilarityMatrix
     {

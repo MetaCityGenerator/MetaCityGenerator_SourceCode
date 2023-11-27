@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using UrbanX.Planning.Utility;
+using MetaCity.Planning.Utility;
 
-namespace UrbanX.Algorithms.Geometry3D
+namespace MetaCity.Algorithms.Geometry3D
 {
     public struct PointPosition
     {

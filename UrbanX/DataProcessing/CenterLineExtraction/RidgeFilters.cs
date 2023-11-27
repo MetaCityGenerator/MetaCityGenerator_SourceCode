@@ -7,7 +7,7 @@ using NetTopologySuite.Precision;
 using System.Linq;
 using System.Collections.Concurrent;
 
-namespace UrbanX.DataProcessing
+namespace MetaCity.DataProcessing
 {
     public class RidgeFilters
     {

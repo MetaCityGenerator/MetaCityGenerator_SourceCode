@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.DataStructures.Trees;
+using MetaCity.DataStructures.Trees;
 
-namespace UrbanX.Algorithms.Trees
+namespace MetaCity.Algorithms.Trees
 {
     /// <summary>
     /// For classs and structs who share the same name in Rhino.geometry, we use U for the prefix.

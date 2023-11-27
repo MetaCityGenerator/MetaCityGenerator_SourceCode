@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.DataStructures.Utility;
+using MetaCity.DataStructures.Utility;
 
-namespace UrbanX.DataStructures.Trees
+namespace MetaCity.DataStructures.Trees
 {
     /// <summary>
     /// Specifies the mode of travelling through the tree.

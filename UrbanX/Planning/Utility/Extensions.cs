@@ -11,11 +11,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using UrbanX.Planning.UrbanDesign;
+using MetaCity.Planning.UrbanDesign;
 
 
 
-namespace UrbanX.Planning.Utility
+namespace MetaCity.Planning.Utility
 {
     public static class Extensions
     {

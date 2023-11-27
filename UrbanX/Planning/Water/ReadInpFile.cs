@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace UrbanX.Planning.Water
+namespace MetaCity.Planning.Water
 {
     public class ReadInpFile
     {

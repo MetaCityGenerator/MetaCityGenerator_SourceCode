@@ -4,14 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.DataStructures.Trees;
+using MetaCity.DataStructures.Trees;
 
 
 
 // Reminder: closed curve orientation.
 // ccw: GetBreps(extruding) , getoffsetCurveLength()
 // cw: offset, brep.Split(left is the first brep)
-namespace UrbanX.Planning.UrbanDesign
+namespace MetaCity.Planning.UrbanDesign
 {
     /// <summary>
     /// Using binary space partition tree to split site into sub sites.

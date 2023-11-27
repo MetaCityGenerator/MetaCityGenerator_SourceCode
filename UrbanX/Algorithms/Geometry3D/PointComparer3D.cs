@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NetTopologySuite.Geometries;
 using NetTopologySuite.Precision;
 
-namespace UrbanX.Algorithms.Geometry3D
+namespace MetaCity.Algorithms.Geometry3D
 {
     /// <summary>
     /// This point comparer need to set the tolerance.

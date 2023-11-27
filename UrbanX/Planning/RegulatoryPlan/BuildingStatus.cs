@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NetTopologySuite.Geometries;
-using UrbanX.Planning.RegulatoryPlan;
+using MetaCity.Planning.RegulatoryPlan;
 
 
-namespace UrbanX.Planning.RegulatoryPlan
+namespace MetaCity.Planning.RegulatoryPlan
 {
     public class BuildingStatus
     {

@@ -9,22 +9,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 
-using UrbanX.DataStructures.Geometry3D;
-using UrbanX.IO.OpenNURBS;
-using UrbanX.Planning.NetworkAnalysis;
-using UrbanX.Planning.SpaceSyntax;
-using UrbanX.Planning.UrbanDesign;
-using UrbanX.Planning.Utility;
+using MetaCity.DataStructures.Geometry3D;
+using MetaCity.IO.OpenNURBS;
+using MetaCity.Planning.NetworkAnalysis;
+using MetaCity.Planning.SpaceSyntax;
+using MetaCity.Planning.UrbanDesign;
+using MetaCity.Planning.Utility;
 
-using UrbanXTools.Properties;
+using MetaCityGenerator.Properties;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class NetworkStructure_GiantComponentSize : GH_Component
     {
         private XElement _meta;
 
-        // Module name is the subcatagory of UrbanXTools, used for query xml data.
+        // Module name is the subcatagory of MetaCityGenerator, used for query xml data.
         private readonly string _moduleName = "NetworkStructure";
         // componentId is used for querying xml data in current module.
         private readonly string _componentId = "NetworkStructure_Computing3D";

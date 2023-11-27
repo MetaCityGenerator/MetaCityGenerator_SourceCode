@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Numerics;
-using UrbanX.DataStructures.Geometry3D;
+using MetaCity.DataStructures.Geometry3D;
 
-namespace UrbanX.Algorithms.Geometry3D
+namespace MetaCity.Algorithms.Geometry3D
 {
 
     /// <summary>

@@ -5,13 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.Algorithms.Trees;
-using UrbanX.Algorithms.Utility;
-using UrbanX.DataStructures.Heaps;
-using UrbanX.DataStructures.Trees;
+using MetaCity.Algorithms.Trees;
+using MetaCity.Algorithms.Utility;
+using MetaCity.DataStructures.Heaps;
+using MetaCity.DataStructures.Trees;
 
 
-namespace UrbanX.Planning.UrbanDesign
+namespace MetaCity.Planning.UrbanDesign
 {
     public class DesignResidential : IDisposable
     {

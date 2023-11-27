@@ -6,7 +6,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UrbanXWrapper
+namespace MetaCityWrapper
 {
     public class Raytracer : IDisposable
     {

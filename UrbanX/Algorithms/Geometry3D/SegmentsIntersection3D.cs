@@ -8,7 +8,7 @@ using NetTopologySuite.Mathematics;
 
 
 
-namespace UrbanX.Algorithms.Geometry3D
+namespace MetaCity.Algorithms.Geometry3D
 {
 
     /// <summary>

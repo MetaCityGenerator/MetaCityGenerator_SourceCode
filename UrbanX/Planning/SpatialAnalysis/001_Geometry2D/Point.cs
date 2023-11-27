@@ -1,4 +1,4 @@
-﻿namespace UrbanX.Application
+﻿namespace MetaCity.Application
 {
     public struct Point
     {

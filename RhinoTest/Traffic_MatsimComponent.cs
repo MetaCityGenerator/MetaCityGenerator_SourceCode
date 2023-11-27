@@ -7,10 +7,10 @@ using System.Threading;
 using System.Windows.Forms;
 using Grasshopper.Kernel;
 using Rhino.Geometry;
-using UrbanX.Traffic;
-using UrbanXTools.Properties;
+using MetaCity.Traffic;
+using MetaCityGenerator.Properties;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class Traffic_MatsimComponent : GH_Component
     {
@@ -22,7 +22,7 @@ namespace UrbanXTools
         public Traffic_MatsimComponent()
           : base("Traffic_RunSim", "TR_Run",
                 "Run simulation based on generated conditions",
-              "UrbanX", "8_Traffic")
+              "MetaCity", "8_Traffic")
         {
         }
 

@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 
-using UrbanX.Planning.UrbanDesign;
-using UrbanX.IO.OpenNURBS;
+using MetaCity.Planning.UrbanDesign;
+using MetaCity.IO.OpenNURBS;
 
-using UrbanXTools.Properties;
+using MetaCityGenerator.Properties;
 using NetTopologySuite.Geometries;
 
 // In order to load the result of this wizard, you will also need to
@@ -18,13 +18,13 @@ using NetTopologySuite.Geometries;
 // folder in Grasshopper.
 // You can use the _GrasshopperDeveloperSettings Rhino command for that.
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class UrbanDesign_SiteTrees : GH_Component
     {
         private XElement _meta;
 
-        // Module name is the subcatagory of UrbanXTools, used for query xml data.
+        // Module name is the subcatagory of MetaCityGenerator, used for query xml data.
         private readonly string _moduleName = "UrbanDesign";
         // componentId is used for querying xml data in current module.
         private readonly string _componentId = "UrbanDesign_SiteTrees";

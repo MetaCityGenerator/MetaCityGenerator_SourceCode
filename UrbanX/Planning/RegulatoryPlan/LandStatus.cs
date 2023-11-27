@@ -3,11 +3,11 @@ using System.Linq;
 using System.Collections.Generic;
 using NetTopologySuite.Features;
 using NetTopologySuite.Geometries;
-using UrbanX.Planning.UrbanDesign;
-using UrbanX.Planning.Utility;
+using MetaCity.Planning.UrbanDesign;
+using MetaCity.Planning.Utility;
 
 
-namespace UrbanX.Planning.RegulatoryPlan
+namespace MetaCity.Planning.RegulatoryPlan
 {
     public class LandStatus
     {

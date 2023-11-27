@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace UrbanX.Algorithms.Mathematics
+namespace MetaCity.Algorithms.Mathematics
 {
     public static class SolveQuadratic
     {

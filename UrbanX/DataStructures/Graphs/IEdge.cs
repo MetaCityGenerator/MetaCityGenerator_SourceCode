@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrbanX.DataStructures.Graphs
+namespace MetaCity.DataStructures.Graphs
 {
     /// <summary>
     /// This interface should be implemented by all edges classes.

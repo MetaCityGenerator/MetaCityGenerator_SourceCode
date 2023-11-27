@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UrbanX.Planning.NetworkAnalysis
+namespace MetaCity.Planning.NetworkAnalysis
 {
     public static class Extension
     {

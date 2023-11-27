@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-namespace UrbanX.Planning.SpatialAnalysis
+namespace MetaCity.Planning.SpatialAnalysis
 {
     public class Triangulator
     {

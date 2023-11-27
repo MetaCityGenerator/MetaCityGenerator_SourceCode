@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace UrbanX.DataStructures.Graphs
+namespace MetaCity.DataStructures.Graphs
 {
     /// <summary>
     /// A light weight graph edge structure. This type is immutable.

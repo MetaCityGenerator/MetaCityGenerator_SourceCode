@@ -7,8 +7,8 @@
     <ProjectGuid>{B4E7A58A-EE66-4F47-ACAA-C97550C98BF8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UrbanX</RootNamespace>
-    <AssemblyName>UrbanXCore</AssemblyName>
+    <RootNamespace>MetaCity</RootNamespace>
+    <AssemblyName>MetaCityCore</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -287,9 +287,9 @@
     <EmbeddedResource Include="IO\Resources.resx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UrbanXWrapper\UrbanXWrapper.csproj">
+    <ProjectReference Include="..\UrbanXWrapper\MetaCityWrapper.csproj">
       <Project>{080c40c1-52b9-499c-986b-0a4eaf63d589}</Project>
-      <Name>UrbanXWrapper</Name>
+      <Name>MetaCityWrapper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

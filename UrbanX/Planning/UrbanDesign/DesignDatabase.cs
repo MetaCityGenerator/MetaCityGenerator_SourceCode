@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Xml;
 
 
-namespace UrbanX.Planning.UrbanDesign
+namespace MetaCity.Planning.UrbanDesign
 {
     public enum SiteTypes
     {
@@ -90,7 +90,7 @@ namespace UrbanX.Planning.UrbanDesign
     /// </summary>
     public class SiteDataset
     {
-        //private static readonly string _xml = @"D:\1_OneDriveBusiness\OneDrive - UrbanX\0_Coding\1_Working\ProjectX\UrbanX\Data\UrbanDesign.xml";
+        //private static readonly string _xml = @"D:\1_OneDriveBusiness\OneDrive - MetaCity\0_Coding\1_Working\ProjectX\MetaCity\Data\UrbanDesign.xml";
 
         private static readonly string _defaultPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         private static readonly string _xml = Path.Combine(_defaultPath, "data", "UrbanDesign.xml");
@@ -193,7 +193,7 @@ namespace UrbanX.Planning.UrbanDesign
     /// </summary>    
     public class BuildingDataset
     {
-        //private static readonly string _xml = @"D:\1_OneDriveBusiness\OneDrive - UrbanX\0_Coding\1_Working\ProjectX\UrbanX\Data\UrbanDesign.xml";
+        //private static readonly string _xml = @"D:\1_OneDriveBusiness\OneDrive - MetaCity\0_Coding\1_Working\ProjectX\MetaCity\Data\UrbanDesign.xml";
 
         private static readonly string _defaultPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         private static readonly string _xml = Path.Combine(_defaultPath, "data", "UrbanDesign.xml");

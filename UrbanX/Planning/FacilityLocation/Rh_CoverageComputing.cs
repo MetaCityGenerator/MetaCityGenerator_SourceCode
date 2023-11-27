@@ -5,14 +5,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using UrbanX.Algorithms.Graphs;
-using UrbanX.DataStructures.Graphs;
-using UrbanX.Planning.SpaceSyntax;
-using UrbanX.Planning.UrbanDesign;
+using MetaCity.Algorithms.Graphs;
+using MetaCity.DataStructures.Graphs;
+using MetaCity.Planning.SpaceSyntax;
+using MetaCity.Planning.UrbanDesign;
 
 
 
-namespace UrbanX.Planning.FacilityLocation
+namespace MetaCity.Planning.FacilityLocation
 {
     public class Rh_CoverageComputing
     {

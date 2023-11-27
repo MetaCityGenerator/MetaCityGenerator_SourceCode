@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrbanX.DataStructures.Trees
+namespace MetaCity.DataStructures.Trees
 {
     /// <summary>
     /// Red-Black tree node.

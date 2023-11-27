@@ -2,7 +2,7 @@
 
 using System.Text.Json;
 
-namespace UrbanX.IO.GeoJSON.Converters
+namespace MetaCity.IO.GeoJSON.Converters
 {
     internal partial class GeometryConverter
     {

@@ -5,7 +5,7 @@ using System.Linq;
 
 //using Rhino.Geometry;
 
-namespace UrbanX.Planning.SpatialAnalysis
+namespace MetaCity.Planning.SpatialAnalysis
 {
     /// <summary>
     /// Provides access to the faces and <see cref="PlanktonFace"/> related functionality of a Mesh.

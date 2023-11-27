@@ -3,10 +3,10 @@ using System.Buffers;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-using UrbanX.DataStructures.Graphs;
-using UrbanX.DataStructures.Heaps;
+using MetaCity.DataStructures.Graphs;
+using MetaCity.DataStructures.Heaps;
 
-namespace UrbanX.Algorithms.Graphs
+namespace MetaCity.Algorithms.Graphs
 {
     public enum GraphType: sbyte
     {

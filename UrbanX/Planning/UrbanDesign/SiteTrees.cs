@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 using NetTopologySuite.Geometries;
-using UrbanX.Planning.Utility;
+using MetaCity.Planning.Utility;
 
-namespace UrbanX.Planning.UrbanDesign
+namespace MetaCity.Planning.UrbanDesign
 {
     public class Tree
     {

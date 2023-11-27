@@ -5,12 +5,12 @@ using Grasshopper.Kernel;
 using Grasshopper.Kernel.Data;
 using NetTopologySuite.Geometries;
 using Rhino.Geometry;
-using UrbanX.IO.OpenNURBS;
-using UrbanX.Planning.SpatialAnalysis;
-using UrbanX.Planning.UrbanDesign;
-using UrbanX.Planning.Utility;
+using MetaCity.IO.OpenNURBS;
+using MetaCity.Planning.SpatialAnalysis;
+using MetaCity.Planning.UrbanDesign;
+using MetaCity.Planning.Utility;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class Debug_VisualSyntax : GH_Component
     {
@@ -20,7 +20,7 @@ namespace UrbanXTools
         public Debug_VisualSyntax()
           : base("Debug_VisualSyntax", "VSyntax",
                 "Calculate visual syntax",
-              "UrbanX", "7_Utility")
+              "MetaCity", "7_Utility")
         {
         }
         public override GH_Exposure Exposure => GH_Exposure.hidden;

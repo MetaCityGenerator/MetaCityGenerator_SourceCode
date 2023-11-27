@@ -1,9 +1,9 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Text.Json;
 
-using UrbanX.IO.Properties;
+using MetaCity.IO.Properties;
 
-namespace UrbanX.IO.GeoJSON
+namespace MetaCity.IO.GeoJSON
 {
     public static class Utility
     {

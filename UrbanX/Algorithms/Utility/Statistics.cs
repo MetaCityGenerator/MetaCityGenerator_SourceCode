@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrbanX.Algorithms.Utility
+namespace MetaCity.Algorithms.Utility
 {
     public static class Statistics
     {

@@ -1,6 +1,6 @@
 ﻿using NetTopologySuite.Geometries;
 
-namespace UrbanX.Planning.Utility
+namespace MetaCity.Planning.Utility
 {
     public class PrecisionSetting
     {

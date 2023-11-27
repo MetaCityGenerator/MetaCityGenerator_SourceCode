@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace UrbanX.Algorithms.Clustering
+namespace MetaCity.Algorithms.Clustering
 {
     /// <summary>
     /// A hierarchical agglomerative clustering (HAC) algorithm based on complete linkage to ensure all the clusters are with more or less the same diameter.

@@ -4,7 +4,7 @@
 #include "common.h"
 #include "raytrace.h"
 
-namespace urbanxnative {
+namespace MetaCitynative {
 
 class Scene {
 public:

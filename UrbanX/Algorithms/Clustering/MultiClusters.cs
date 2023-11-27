@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace UrbanX.Algorithms.Clustering
+namespace MetaCity.Algorithms.Clustering
 {
     /// <summary>
     /// Structure for storing the clustering result.

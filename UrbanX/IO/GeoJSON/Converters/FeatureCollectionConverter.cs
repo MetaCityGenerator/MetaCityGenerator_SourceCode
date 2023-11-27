@@ -4,7 +4,7 @@ using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace UrbanX.IO.GeoJSON.Converters
+namespace MetaCity.IO.GeoJSON.Converters
 {
     /// <summary>
     /// Converts FeatureCollection objects to its JSON representation.

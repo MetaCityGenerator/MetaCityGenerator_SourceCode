@@ -14,10 +14,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.Algorithms.Utility;
-using UrbanX.DataStructures.Utility;
+using MetaCity.Algorithms.Utility;
+using MetaCity.DataStructures.Utility;
 
-namespace UrbanX.DataStructures.Graphs
+namespace MetaCity.DataStructures.Graphs
 {
     public class UndirectedWeightedSparseGraph<T> : IDisposable, IGraph<T>, IWeightedGraph<T> where T : IComparable<T>
     {

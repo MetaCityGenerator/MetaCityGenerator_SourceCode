@@ -8,10 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using UrbanX.Algorithms.Mathematics;
-using UrbanX.DataStructures.Trees;
+using MetaCity.Algorithms.Mathematics;
+using MetaCity.DataStructures.Trees;
 
-namespace UrbanX.Planning.UrbanDesign
+namespace MetaCity.Planning.UrbanDesign
 {
     public static class DesignToolbox
     {

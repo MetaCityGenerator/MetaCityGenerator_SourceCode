@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.Algorithms.Utility;
-using UrbanX.DataStructures.Heaps;
-using UrbanX.DataStructures.Utility;
+using MetaCity.Algorithms.Utility;
+using MetaCity.DataStructures.Heaps;
+using MetaCity.DataStructures.Utility;
 
-namespace UrbanX.DataStructures.Trees
+namespace MetaCity.DataStructures.Trees
 {
     public class BSPTreeNode : ITreeNode<double>, IComparable<BSPTreeNode>
     {

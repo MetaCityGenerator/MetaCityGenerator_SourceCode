@@ -1,4 +1,4 @@
-﻿namespace UrbanX.DataStructures.Geometry
+﻿namespace MetaCity.DataStructures.Geometry
 {
     public class VRBTreeNode<T>
     {

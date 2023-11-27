@@ -3,7 +3,7 @@
 using System;
 
 
-namespace UrbanX.Planning.UrbanDesign
+namespace MetaCity.Planning.UrbanDesign
 {
     /// <summary>
     /// Utility class including fillet curve corners and other useful methods.

@@ -10,7 +10,7 @@ using Form = System.Windows.Forms.Form;
 using MessageBox = System.Windows.Forms.MessageBox;
 using TextBox = System.Windows.Forms.TextBox;
 
-namespace UrbanX.Traffic
+namespace MetaCity.Traffic
 {
     public class Interface
     {
@@ -37,7 +37,7 @@ namespace UrbanX.Traffic
         {
             this.Width = Width;
             this.Height = Height;
-            this.Text = "UrbanXTools Traffic";
+            this.Text = "MetaCityGenerator Traffic";
 
             OutputTextBox.Dock = DockStyle.Fill;
             OutputTextBox.Multiline = true;

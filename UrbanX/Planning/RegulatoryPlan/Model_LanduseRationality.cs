@@ -5,7 +5,7 @@ using NetTopologySuite.Features;
 using NetTopologySuite.Geometries;
 
 
-namespace UrbanX.Planning.RegulatoryPlan
+namespace MetaCity.Planning.RegulatoryPlan
 {
     public class Model_LanduseRationality
     {

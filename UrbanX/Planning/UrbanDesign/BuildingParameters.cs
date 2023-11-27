@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrbanX.Planning.UrbanDesign
+namespace MetaCity.Planning.UrbanDesign
 {
     public struct BuildingParameters : IEquatable<BuildingParameters>
     {

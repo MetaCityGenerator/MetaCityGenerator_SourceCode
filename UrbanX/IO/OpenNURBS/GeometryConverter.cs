@@ -7,11 +7,11 @@ using Rhino.Geometry;
 
 using System.Collections.Generic;
 
-using UrbanX.Planning.Utility;
-using UrbanX.DataStructures.Geometry3D;
+using MetaCity.Planning.Utility;
+using MetaCity.DataStructures.Geometry3D;
 
 
-namespace UrbanX.IO.OpenNURBS
+namespace MetaCity.IO.OpenNURBS
 {
     public class GeometryConverter
     {
@@ -150,7 +150,7 @@ namespace UrbanX.IO.OpenNURBS
         #endregion
 
 
-        #region Rhino<-->UrbanX
+        #region Rhino<-->MetaCity
         public UPolyline ToPolyline3D(Polyline pl)
         {
             UPoint[] arr = new UPoint[pl.Count];

@@ -24,7 +24,7 @@
     <Keyword>MFCDLLProj</Keyword>
     <RootNamespace>UrbanXToolsNative</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>UrbanXTools.Native</ProjectName>
+    <ProjectName>MetaCityGenerator.Native</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -7,20 +7,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 
-using UrbanX.DataStructures.Trees;
-using UrbanX.DataStructures.Utility;
-using UrbanX.Planning.UrbanDesign;
+using MetaCity.DataStructures.Trees;
+using MetaCity.DataStructures.Utility;
+using MetaCity.Planning.UrbanDesign;
 
-using UrbanXTools.Properties;
+using MetaCityGenerator.Properties;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     //[Obsolete("Rarely use this method.")]
     public class Urban_DynamicSplit : GH_Component
     {
         private XElement _meta;
 
-        // Module name is the subcatagory of UrbanXTools, used for query xml data.
+        // Module name is the subcatagory of MetaCityGenerator, used for query xml data.
         private readonly string _moduleName = "UrbanDesign";
         // componentId is used for querying xml data in current module.
         private readonly string _componentId = "Urban_DynamicSplit";

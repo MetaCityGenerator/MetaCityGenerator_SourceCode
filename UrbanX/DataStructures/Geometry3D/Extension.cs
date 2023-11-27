@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UrbanX.DataStructures.Geometry3D
+namespace MetaCity.DataStructures.Geometry3D
 {
     public static class Extension
     {

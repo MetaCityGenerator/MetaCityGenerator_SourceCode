@@ -6,15 +6,15 @@ using NetTopologySuite.Algorithm;
 using NetTopologySuite.Features;
 using NetTopologySuite.Geometries;
 using Rhino.Geometry;
-using UrbanX.DataProcessing;
-using UrbanX.IO.OpenNURBS;
-using UrbanX.Planning.UrbanDesign;
-using UrbanX.Planning.Utility;
+using MetaCity.DataProcessing;
+using MetaCity.IO.OpenNURBS;
+using MetaCity.Planning.UrbanDesign;
+using MetaCity.Planning.Utility;
 using System.Linq;
-using UrbanXWrapper;
-using UrbanXTools.Properties;
+using MetaCityWrapper;
+using MetaCityGenerator.Properties;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class Utility_ExtractCenterLineFromBuffer : GH_Component
     {
@@ -30,7 +30,7 @@ namespace UrbanXTools
             this.Name = "CenterLineExtractionFromBuffer";
             this.NickName = "CLExtractFrom";
             this.Description = "Extract center lines from complex curves";
-            this.Category = "UrbanX";
+            this.Category = "MetaCity";
             this.SubCategory = "7_Utility";
         }
 

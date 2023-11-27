@@ -13,11 +13,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-using UrbanX.Algorithms.Geometry3D;
-using UrbanX.DataStructures.Geometry3D;
-using UrbanX.Planning.SpaceSyntax;
+using MetaCity.Algorithms.Geometry3D;
+using MetaCity.DataStructures.Geometry3D;
+using MetaCity.Planning.SpaceSyntax;
 
-namespace UrbanX.Planning.Utility
+namespace MetaCity.Planning.Utility
 {
     public class DataCleaning
     {

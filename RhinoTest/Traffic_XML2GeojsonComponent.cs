@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 using Grasshopper.Kernel;
 using Rhino.Geometry;
-using UrbanX.IO.XML;
-using UrbanXTools.Properties;
+using MetaCity.IO.XML;
+using MetaCityGenerator.Properties;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class Traffic_XML2GeojsonComponent : GH_Component
     {
@@ -16,7 +16,7 @@ namespace UrbanXTools
         public Traffic_XML2GeojsonComponent()
           : base("Traffic_ConvertToGeojson", "TR_XML2GeoJSON",
                 "Convert xml file to geojson",
-              "UrbanX", "8_Traffic")
+              "MetaCity", "8_Traffic")
         {
         }
 

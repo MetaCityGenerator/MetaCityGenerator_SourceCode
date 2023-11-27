@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using UrbanX.Algorithms.Graphs;
-using UrbanX.DataStructures.Graphs;
+using MetaCity.Algorithms.Graphs;
+using MetaCity.DataStructures.Graphs;
 
 
-namespace UrbanX.Planning.SpaceSyntax
+namespace MetaCity.Planning.SpaceSyntax
 {
     /// <summary>
     /// A wrapper for calculating cenrality class in algorithms namespace.

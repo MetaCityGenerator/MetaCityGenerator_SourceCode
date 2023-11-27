@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrbanX.Algorithms.Mathematics
+namespace MetaCity.Algorithms.Mathematics
 {
     /// <summary>
     /// Math used in voronoi diagram

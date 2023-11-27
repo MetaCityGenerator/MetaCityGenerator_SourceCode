@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UrbanX.DataStructures.Heaps
+namespace MetaCity.DataStructures.Heaps
 {
     public interface IMinHeap<T> where T : IComparable<T>
     {

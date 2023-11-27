@@ -13,12 +13,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 
-using UrbanX.IO.OpenNURBS;
-using UrbanX.Planning.SpatialAnalysis;
-using UrbanX.Planning.UrbanDesign;
-using UrbanX.Planning.Utility;
+using MetaCity.IO.OpenNURBS;
+using MetaCity.Planning.SpatialAnalysis;
+using MetaCity.Planning.UrbanDesign;
+using MetaCity.Planning.Utility;
 
-using UrbanXTools.Properties;
+using MetaCityGenerator.Properties;
 
 using Rh = Rhino.Geometry;
 
@@ -27,7 +27,7 @@ using Rh = Rhino.Geometry;
 // folder in Grasshopper.
 // You can use the _GrasshopperDeveloperSettings Rhino command for that.
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class VisibilityAnalysis_VisualCalc : GH_Component
     {
@@ -46,7 +46,7 @@ namespace UrbanXTools
         //public Urban_SustainabilityComponent()
         //  : base("IndexCalculation", "IndexCalc",
         //      "index calculation, included EC,WC, GC, Population Amount",
-        //      "UrbanXFireFly", "AutoGenerator")
+        //      "MetaCityFireFly", "AutoGenerator")
         //{
         //}
         #endregion

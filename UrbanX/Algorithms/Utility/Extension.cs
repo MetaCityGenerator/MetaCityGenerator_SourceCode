@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UrbanX.Algorithms.Utility
+namespace MetaCity.Algorithms.Utility
 {
     public static class Extension
     {

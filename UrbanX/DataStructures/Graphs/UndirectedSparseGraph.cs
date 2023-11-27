@@ -11,7 +11,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace UrbanX.DataStructures.Graphs
+namespace MetaCity.DataStructures.Graphs
 {
     public class UndirectedSparseGraph<T> : IGraph<T> where T : IComparable<T>
     {

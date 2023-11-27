@@ -11,7 +11,7 @@ using NetTopologySuite.Operation.Buffer;
 using NetTopologySuite.Operation.Union;
 
 
-namespace UrbanX.DataProcessing
+namespace MetaCity.DataProcessing
 {
     public class Grid
     {

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.Algorithms.Utility;
-using UrbanX.DataStructures.Trees;
+using MetaCity.Algorithms.Utility;
+using MetaCity.DataStructures.Trees;
 
-namespace UrbanX.DataStructures.Utility
+namespace MetaCity.DataStructures.Utility
 {
     public static class TreeDrawer
     {

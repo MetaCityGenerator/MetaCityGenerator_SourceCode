@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UrbanX.Planning.RegulatoryPlan
+namespace MetaCity.Planning.RegulatoryPlan
 {
     public class IndexPQ<T> where T : IComparable
     {

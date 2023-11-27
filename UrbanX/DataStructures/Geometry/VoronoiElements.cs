@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.Algorithms.Mathematics;
-using UrbanX.DataStructures.Trees;
+using MetaCity.Algorithms.Mathematics;
+using MetaCity.DataStructures.Trees;
 
-namespace UrbanX.DataStructures.Geometry
+namespace MetaCity.DataStructures.Geometry
 {
     // internal point2d class
     public class VPoint : IComparable<VPoint>

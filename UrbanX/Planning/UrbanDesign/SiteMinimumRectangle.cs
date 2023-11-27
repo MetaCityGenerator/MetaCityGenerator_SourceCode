@@ -7,9 +7,9 @@ using NetTopologySuite.Precision;
 using System;
 using System.Collections.Generic;
 
-using UrbanX.Planning.Utility;
+using MetaCity.Planning.Utility;
 
-namespace UrbanX.Planning.UrbanDesign
+namespace MetaCity.Planning.UrbanDesign
 {
     /// <summary>
     /// Class represent the minimum rectangle of current site. Contains all the method for splitting site.

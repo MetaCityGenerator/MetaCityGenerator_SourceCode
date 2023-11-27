@@ -4,11 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.Algorithms.Graphs;
-using UrbanX.Algorithms.Utility;
-using UrbanX.DataStructures.Graphs;
+using MetaCity.Algorithms.Graphs;
+using MetaCity.Algorithms.Utility;
+using MetaCity.DataStructures.Graphs;
 
-namespace UrbanX.Planning.Water
+namespace MetaCity.Planning.Water
 {
     public class NetworkOptimization
     {

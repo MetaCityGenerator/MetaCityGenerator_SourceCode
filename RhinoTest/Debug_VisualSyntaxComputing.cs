@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using Grasshopper.Kernel;
 using NetTopologySuite.Geometries;
 using Rhino.Geometry;
-using UrbanX.Assessment.SpatialAnalysis;
-using UrbanX.IO.OpenNURBS;
-using UrbanX.Planning.UrbanDesign;
+using MetaCity.Assessment.SpatialAnalysis;
+using MetaCity.IO.OpenNURBS;
+using MetaCity.Planning.UrbanDesign;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class Debug_VisualSyntaxComputing : GH_Component
     {
@@ -18,7 +18,7 @@ namespace UrbanXTools
         public Debug_VisualSyntaxComputing()
           : base("Debug_VisualComputing", "VSComputing",
                 "Calculating visual syntax",
-              "UrbanX", "7_Utility")
+              "MetaCity", "7_Utility")
         {
         }
         public override GH_Exposure Exposure => GH_Exposure.primary;

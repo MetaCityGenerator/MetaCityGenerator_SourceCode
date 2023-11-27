@@ -12,11 +12,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 
-using UrbanX.IO.OpenNURBS;
-using UrbanX.Planning.RegulatoryPlan;
-using UrbanX.Planning.UrbanDesign;
+using MetaCity.IO.OpenNURBS;
+using MetaCity.Planning.RegulatoryPlan;
+using MetaCity.Planning.UrbanDesign;
 
-using UrbanXTools.Properties;
+using MetaCityGenerator.Properties;
 
 
 // In order to load the result of this wizard, you will also need to
@@ -24,13 +24,13 @@ using UrbanXTools.Properties;
 // folder in Grasshopper.
 // You can use the _GrasshopperDeveloperSettings Rhino command for that.
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class RegulatoryPlanning_FARAllocation : GH_Component
     {
         private XElement _meta;
 
-        // Module name is the subcatagory of UrbanXTools, used for query xml data.
+        // Module name is the subcatagory of MetaCityGenerator, used for query xml data.
         private readonly string _moduleName = "RegulatoryPlanning";
         // componentId is used for querying xml data in current module.
         private readonly string _componentId = "RegulatoryPlanning_FarAllocation";

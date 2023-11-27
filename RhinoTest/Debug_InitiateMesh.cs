@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 using Grasshopper.Kernel;
 using Rhino.Geometry;
-using UrbanX.Planning.SpatialAnalysis;
+using MetaCity.Planning.SpatialAnalysis;
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class Debug_InitiateMesh : GH_Component
     {
@@ -15,7 +15,7 @@ namespace UrbanXTools
         public Debug_InitiateMesh()
           : base("Debug_InitiateMesh", "IMesh",
                 "Initiate mesh for 3d visual syntax calculation",
-              "UrbanX", "7_Utility")
+              "MetaCity", "7_Utility")
         {
         }
         public override GH_Exposure Exposure => GH_Exposure.hidden;

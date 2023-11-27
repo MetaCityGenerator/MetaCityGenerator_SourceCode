@@ -5,10 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using UrbanX.Algorithms.Trees;
-using UrbanX.DataStructures.Heaps;
+using MetaCity.Algorithms.Trees;
+using MetaCity.DataStructures.Heaps;
 
-namespace UrbanX.Planning.SpatialAnalysis
+namespace MetaCity.Planning.SpatialAnalysis
 {
     public class CuttingPreparation
     {

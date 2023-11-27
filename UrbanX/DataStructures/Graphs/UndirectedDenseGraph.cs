@@ -9,10 +9,10 @@
 using System;
 using System.Collections.Generic;
 
-using UrbanX.Algorithms.Utility;
+using MetaCity.Algorithms.Utility;
 
 
-namespace UrbanX.DataStructures.Graphs
+namespace MetaCity.DataStructures.Graphs
 {
     public class UndirectedDenseGraph<T> : IGraph<T> where T : IComparable<T>
     {

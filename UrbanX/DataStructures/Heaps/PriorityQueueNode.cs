@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace UrbanX.DataStructures.Heaps
+namespace MetaCity.DataStructures.Heaps
 {
     /// <summary>
     /// The Priority-queue node.

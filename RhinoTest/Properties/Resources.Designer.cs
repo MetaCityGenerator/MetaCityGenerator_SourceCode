@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UrbanXTools.Properties {
+namespace MetaCityGenerator.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace UrbanXTools.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("UrbanXTools.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MetaCityGenerator.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -109,10 +109,10 @@ namespace UrbanXTools.Properties {
         ///			&lt;name&gt;NS_RoadsSplitter&lt;/name&gt;
         ///			&lt;nickname&gt;RoadsSplitter&lt;/nickname&gt;
         ///			&lt;description&gt;Clearing and splitting input curves (both 2D and 3D). Handling all the degenerate cases: overlaps, shapely identical, intersection and invalid curve.&lt;/description&gt;
-        ///			&lt;category&gt;UrbanX&lt;/category&gt;
+        ///			&lt;category&gt;MetaCity&lt;/category&gt;
         ///			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
         ///			&lt;inputs&gt;
-        ///				&lt;input id= [rest of string was truncated]&quot;;.
+        ///				&lt;input i [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string MetaData {
             get {

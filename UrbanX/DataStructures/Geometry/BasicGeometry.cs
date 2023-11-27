@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace UrbanX.DataStructures.Geometry
+namespace MetaCity.DataStructures.Geometry
 {
     /// <summary>
     /// Represents the two coordinates of a point in two-dimensional space.

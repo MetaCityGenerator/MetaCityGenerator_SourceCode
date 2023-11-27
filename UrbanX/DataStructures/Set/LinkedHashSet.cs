@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace UrbanX.DataStructures.Set
+namespace MetaCity.DataStructures.Set
 {
     /// <summary>
     /// Hash table and linked list implementation of the Set interface, with predictable iteration order.

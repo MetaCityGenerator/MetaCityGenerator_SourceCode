@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using UrbanX.Algorithms.Mathematics;
-using UrbanX.DataStructures.Heaps;
+using MetaCity.Algorithms.Mathematics;
+using MetaCity.DataStructures.Heaps;
 
-namespace UrbanX.DataStructures.Geometry
+namespace MetaCity.DataStructures.Geometry
 {
     internal class BeachSection
     {

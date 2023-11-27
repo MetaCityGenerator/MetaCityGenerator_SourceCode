@@ -9,21 +9,21 @@ using Grasshopper.Kernel;
 
 using Rhino.Geometry;
 
-using UrbanX.IO.OpenNURBS;
-using UrbanX.IO.GeoJSON;
+using MetaCity.IO.OpenNURBS;
+using MetaCity.IO.GeoJSON;
 
 using NetTopologySuite.Geometries;
-using UrbanX.Planning.UrbanDesign;
+using MetaCity.Planning.UrbanDesign;
 using NetTopologySuite.Features;
 
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class Utility_To3DJson : GH_Component
     {
         private XElement _meta;
 
-        // Module name is the subcatagory of UrbanXTools, used for query xml data.
+        // Module name is the subcatagory of MetaCityGenerator, used for query xml data.
         private readonly string _moduleName = "Utility";
         // componentId is used for querying xml data in current module.
         private readonly string _componentId = "Utility_To3DJson";

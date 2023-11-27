@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace UrbanX.Planning.SpatialAnalysis
+namespace MetaCity.Planning.SpatialAnalysis
 {
     /// <summary>
     /// Provides access to the halfedges and <see cref="PlanktonHalfedge"/> related functionality of a Mesh.

@@ -2,7 +2,7 @@
 using NetTopologySuite.Geometries;
 
 
-namespace UrbanX.DataProcessing
+namespace MetaCity.DataProcessing
 {
     public class Vertice
     {

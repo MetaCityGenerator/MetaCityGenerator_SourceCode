@@ -3,9 +3,9 @@
 using System;
 using System.Collections.Generic;
 
-using UrbanX.DataStructures.Graphs;
+using MetaCity.DataStructures.Graphs;
 
-namespace UrbanX.Assessment.SpatialAnalysis
+namespace MetaCity.Assessment.SpatialAnalysis
 {
     /// <summary>
     /// Construct an <see cref="UndirectedWeightedSparseGraph{T}"/> for space syntax calculation.

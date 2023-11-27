@@ -1,8 +1,8 @@
 ﻿using System;
 
-using UrbanX.DataStructures.Utility;
+using MetaCity.DataStructures.Utility;
 
-namespace UrbanX.DataStructures.Graphs
+namespace MetaCity.DataStructures.Graphs
 {
     /// <summary>
     /// The graph Weighted edge class.

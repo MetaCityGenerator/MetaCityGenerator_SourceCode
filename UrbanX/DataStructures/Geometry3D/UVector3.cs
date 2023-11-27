@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 
 
-namespace UrbanX.DataStructures.Geometry3D
+namespace MetaCity.DataStructures.Geometry3D
 {
     /// <summary>Represents a vector with three double-precision floating-point values.</summary>
     /// <remarks><format type="text/markdown"><![CDATA[

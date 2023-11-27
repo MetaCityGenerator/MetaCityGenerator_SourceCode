@@ -1,4 +1,4 @@
-; UrbanXTools.Native.def : Declares the module parameters for the DLL.
+; MetaCityGenerator.Native.def : Declares the module parameters for the DLL.
 
 LIBRARY
 

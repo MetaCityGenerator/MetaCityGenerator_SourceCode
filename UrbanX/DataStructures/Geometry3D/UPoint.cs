@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 
 using NetTopologySuite.Geometries;
 
-namespace UrbanX.DataStructures.Geometry3D
+namespace MetaCity.DataStructures.Geometry3D
 {
     /// <summary>
     /// Represents the three coordinates of a immutable point in three-dimensional space,

@@ -8,14 +8,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
-using UrbanX.Assessment.SpatialAnalysis;
-using UrbanX.DataStructures.Geometry3D;
-using UrbanX.IO.OpenNURBS;
-using UrbanX.Planning.SpaceSyntax;
-using UrbanX.Planning.SpatialAnalysis;
-using UrbanX.Planning.UrbanDesign;
-using UrbanX.Planning.Utility;
-using UrbanXTools.Properties;
+using MetaCity.Assessment.SpatialAnalysis;
+using MetaCity.DataStructures.Geometry3D;
+using MetaCity.IO.OpenNURBS;
+using MetaCity.Planning.SpaceSyntax;
+using MetaCity.Planning.SpatialAnalysis;
+using MetaCity.Planning.UrbanDesign;
+using MetaCity.Planning.Utility;
+using MetaCityGenerator.Properties;
 
 
 // In order to load the result of this wizard, you will also need to
@@ -23,7 +23,7 @@ using UrbanXTools.Properties;
 // folder in Grasshopper.
 // You can use the _GrasshopperDeveloperSettings Rhino command for that.
 
-namespace UrbanXTools
+namespace MetaCityGenerator
 {
     public class VisibilityAnalysis_VisualSyntaxComputing : GH_Component
     {
@@ -42,7 +42,7 @@ namespace UrbanXTools
         //public Urban_SustainabilityComponent()
         //  : base("IndexCalculation", "IndexCalc",
         //      "index calculation, included EC,WC, GC, Population Amount",
-        //      "UrbanXFireFly", "AutoGenerator")
+        //      "MetaCityFireFly", "AutoGenerator")
         //{
         //}
         #endregion
@@ -131,7 +131,7 @@ namespace UrbanXTools
             GraphBuilder3Df graph = new GraphBuilder3Df(segs3, merge);
             graph.Build(allScores.ToArray());
             radius = radius == -1 ? double.PositiveInfinity : radius;
-            var computing = new SpaceSyntaxComputing3D(graph.Graph, radius, UrbanX.Algorithms.Graphs.GraphType.Other);
+            var computing = new SpaceSyntaxComputing3D(graph.Graph, radius, MetaCity.Algorithms.Graphs.GraphType.Other);
 
             //LineString[] ls = new LineString[allRoads.Count];
             //for (int i = 0; i < allRoads.Count; i++)

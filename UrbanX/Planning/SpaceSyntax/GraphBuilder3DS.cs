@@ -4,13 +4,13 @@ using NetTopologySuite.Mathematics;
 using System;
 using System.Collections.Generic;
 
-using UrbanX.DataStructures.Set;
-using UrbanX.DataStructures.Graphs;
-using UrbanX.Planning.Utility;
-using UrbanX.Algorithms.Geometry3D;
+using MetaCity.DataStructures.Set;
+using MetaCity.DataStructures.Graphs;
+using MetaCity.Planning.Utility;
+using MetaCity.Algorithms.Geometry3D;
 using System.Buffers;
 
-namespace UrbanX.Planning.SpaceSyntax
+namespace MetaCity.Planning.SpaceSyntax
 {
   
     public sealed class GraphBuilder3DS 

@@ -6,38 +6,38 @@
 
 void* InitScene()
 {
-	auto scn = new urbanxnative::Scene();
+	auto scn = new MetaCitynative::Scene();
 	scn->Init();
 	return (void*)scn;
 }
 
 int AddTriangleMesh(void* scene, const float* vertices, int numVerts, const int* indices, int numIdx)
 {
-	auto scn = (urbanxnative::Scene*)scene;
+	auto scn = (MetaCitynative::Scene*)scene;
 	return scn->AddMesh(vertices, indices, numVerts,  numIdx/3);
 }
 
 void FinalizeScene(void* scene)
 {
-	auto scn = (urbanxnative::Scene*)scene;
+	auto scn = (MetaCitynative::Scene*)scene;
 	scn->Finalize();
 }
 
 void TraceSingle(void* scene, const Ray* ray, Hit* hit)
 {
-	auto scn = (urbanxnative::Scene*)scene;
+	auto scn = (MetaCitynative::Scene*)scene;
 	*hit = scn->Intersect(*ray);
 }
 
 bool IsOccluded(void* scene, const Ray* ray, float maxDistance)
 {
-	auto scn = (urbanxnative::Scene*)scene;
+	auto scn = (MetaCitynative::Scene*)scene;
 	return scn->IsOccluded(*ray, maxDistance);
 }
 
 void DeleteScene(void* scene, const Ray* ray, float maxDistance)
 {
-	auto scn = (urbanxnative::Scene*)scene;
+	auto scn = (MetaCitynative::Scene*)scene;
 }
 
 void RayTracing(const float* vertArray, int vertCount,

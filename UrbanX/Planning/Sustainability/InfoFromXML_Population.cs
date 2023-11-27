@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 
 using System.Xml;
-using UrbanX.Planning.Utility;
+using MetaCity.Planning.Utility;
 
-namespace UrbanX.Planning.Sustainability
+namespace MetaCity.Planning.Sustainability
 {
     public class InfoFromXML_Population
     {

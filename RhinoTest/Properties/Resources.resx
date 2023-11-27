@@ -139,7 +139,7 @@
 			&lt;name&gt;NS_RoadsSplitter&lt;/name&gt;
 			&lt;nickname&gt;RoadsSplitter&lt;/nickname&gt;
 			&lt;description&gt;Clearing and splitting input curves (both 2D and 3D). Handling all the degenerate cases: overlaps, shapely identical, intersection and invalid curve.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="OriginalCurves" nickname="O_Curves" description="The list of original curves for splitting."/&gt;
@@ -157,7 +157,7 @@
 			&lt;description&gt;
 				Computing 3D-street network analysis.
 			&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="RoadsData" nickname="O_RoadsData" description="The original list of roads in 3D."/&gt;
@@ -184,7 +184,7 @@
 			&lt;name&gt;NS_ClearSitesData&lt;/name&gt;
 			&lt;nickname&gt;ClearSitesData&lt;/nickname&gt;
 			&lt;description&gt;Clearing all the input sites curves. Handling all the degenerate cases: duplicated, shapely identical, non_planar , non_closed and invalid curve.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="OriginalSitesData" nickname="O_SitesData" description="The original list of sites waiting for cleaning."/&gt;
@@ -201,7 +201,7 @@
 			&lt;description&gt;
 				Computing street network analysis.
 			&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="RoadsData" nickname="O_RoadsData" description="The original list of roads."/&gt;
@@ -228,7 +228,7 @@
 			&lt;name&gt;NS_RoadDensity&lt;/name&gt;
 			&lt;nickname&gt;RoadDensity&lt;/nickname&gt;
 			&lt;description&gt;Calculating road density within a given region.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="Roads" nickname="Roads" description="A list of all the roads curves.(Accepts all curve types.)"/&gt;
@@ -247,7 +247,7 @@
 			&lt;name&gt;NS_SiteAccessibility&lt;/name&gt;
 			&lt;nickname&gt;SiteAccessibility&lt;/nickname&gt;
 			&lt;description&gt;Calculating the accessibility score for a given list of sites.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="CleanedRoadsData" nickname="C_RoadsData" description="Cleaned roads segment. (Connect the output of NA_ClearRoadsData component to this slut.)"/&gt;
@@ -266,7 +266,7 @@
 			&lt;name&gt;NS_GravityModel&lt;/name&gt;
 			&lt;nickname&gt;GravityModel&lt;/nickname&gt;
 			&lt;description&gt;Calculating the gravity scores from a given list of sites to tods.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;1_NetworkStructure&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="SitesPoint" nickname="sPoints" description="A list of centroid points for all the sites."/&gt;
@@ -287,7 +287,7 @@
 			&lt;name&gt;RP_GeneratingSites&lt;/name&gt;
 			&lt;nickname&gt;GeneratingSites&lt;/nickname&gt;
 			&lt;description&gt;Automatically generating sites polygon based on the input roads network.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;2_RegulatoryPlanning&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="MainRoads" nickname="mRoads" description="A list of curves representing the primary roads."/&gt;
@@ -311,7 +311,7 @@
 			&lt;description&gt;
 				Clustering a set of sites blocks based on the network distance matrix by using HAC algorithm.
 			&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;2_RegulatoryPlanning&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="Roads" nickname="roads" description="A set of curves representing all the roads."/&gt;
@@ -332,7 +332,7 @@
 			&lt;description&gt;
 				Clustering a set of sites blocks based on the distance matrix among all the site centroids by using HAC algorithm.
 			&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;2_RegulatoryPlanning&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="SitesCentroid" nickname="points" description="A set of centroids representing all the sites."/&gt;
@@ -351,7 +351,7 @@
 			&lt;name&gt;RP_LanduseAllocation&lt;/name&gt;
 			&lt;nickname&gt;LanduseAllocation&lt;/nickname&gt;
 			&lt;description&gt;Automatically allocating landuse for each site.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;2_RegulatoryPlanning&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="Sites" nickname="sites" description="A set of closed curves representing all the sites."/&gt;
@@ -373,7 +373,7 @@
 			&lt;name&gt;RP_FarAllocation&lt;/name&gt;
 			&lt;nickname&gt;FarAllocation&lt;/nickname&gt;
 			&lt;description&gt;Automatically allocating far for each site.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;2_RegulatoryPlanning&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="Model_LanduseAllocation" nickname="model" description="Model_LanduseAllocation class from LanduseAllocation components."/&gt;
@@ -396,7 +396,7 @@
 			&lt;name&gt;UD_DesignCalculator&lt;/name&gt;
 			&lt;nickname&gt;DesignCalculator&lt;/nickname&gt;
 			&lt;description&gt;Calculating building numbers and floors for each prototype to satisfy the target of a given FAR and Density.(Obsolete)&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="SiteCurve" nickname="SiteCurve" description="Site for holding buildings.(Accepts all curve types.)"/&gt;
@@ -420,7 +420,7 @@
 			&lt;name&gt;UD_DynamicSplit&lt;/name&gt;
 			&lt;nickname&gt;DynamicSplit&lt;/nickname&gt;
 			&lt;description&gt;Using binary space partition tree to split a given site with accurate areas ratios.(Obsolete)&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="SiteCurve" nickname="SiteCurve" description="Site curve for splitting.(Accepts all curve types and irregular shape except L-shape and U-shape.) "/&gt;
@@ -446,7 +446,7 @@
 			&lt;name&gt;UD_ResidentialLimitation&lt;/name&gt;
 			&lt;nickname&gt;ResidentialLimitation&lt;/nickname&gt;
 			&lt;description&gt;Calculating the theoretical maximum FAR and densit based on the input site and city.(Obsolete)&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="SiteCurve" nickname="SiteCurve" description="Site curve for holding residential buildings."/&gt;
@@ -468,7 +468,7 @@
 			&lt;name&gt;UD_SiteGeneratePlans&lt;/name&gt;
 			&lt;nickname&gt;SiteGeneratePlans&lt;/nickname&gt;
 			&lt;description&gt;Generating buildings for all the sites.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="SiteParameters" nickname="SiteParameters" description="List of refined site parameters for all the sites.(Connect the output of UD_SiteParameterExtra component to this slut.)"/&gt;
@@ -495,7 +495,7 @@
 			&lt;name&gt;UD_SiteParameter&lt;/name&gt;
 			&lt;nickname&gt;SiteParameter&lt;/nickname&gt;
 			&lt;description&gt;Getting initial site parameters based on input roads and sites curves.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="CleanedRoadsData" nickname="C_RoadsData" description="Cleaned roads segment. (Connect the output of NA_ClearRoadsData component to this slut.)"/&gt;
@@ -513,7 +513,7 @@
 			&lt;name&gt;UD_SiteParameterExtra&lt;/name&gt;
 			&lt;nickname&gt;SiteParameterExtra&lt;/nickname&gt;
 			&lt;description&gt;Adding or refining the properties of each initial site parameters.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="SiteParameters" nickname="SiteParameters" description="A list of initial site parameters for all the sites.(Connect the output of UD_SiteParameter component to this slut.)"/&gt;
@@ -536,7 +536,7 @@
 			&lt;name&gt;UD_SiteTrees&lt;/name&gt;
 			&lt;nickname&gt;SiteTrees&lt;/nickname&gt;
 			&lt;description&gt;Generating trees for input site.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;3_UrbanDesign&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="Site" nickname="Site" description="Input site."/&gt;
@@ -557,7 +557,7 @@
 			&lt;name&gt;FA_CoverageArea&lt;/name&gt;
 			&lt;nickname&gt;CoverageArea&lt;/nickname&gt;
 			&lt;description&gt;Finding the coverage area for a facility based on a given radius.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;4_FacilityAnalysis&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="RoadsNetwork" nickname="Network" description="Generic input parameter for calculating coverage area."/&gt;
@@ -576,7 +576,7 @@
 			&lt;name&gt;FA_ConnectToNetwork&lt;/name&gt;
 			&lt;nickname&gt;ConnectToNetwork&lt;/nickname&gt;
 			&lt;description&gt;Connecting all the sites to nearest surrounding roads segments.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;4_FacilityAnalysis&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="RoadsCurves" nickname="RoadsCurves" description="All the roads curves for constructing a network."/&gt;
@@ -599,7 +599,7 @@
           &lt;name&gt;SA_Population&lt;/name&gt;
           &lt;nickname&gt;Population&lt;/nickname&gt;
           &lt;description&gt;Calculates population in each residential building. TODO: only residential? &lt;/description&gt;
-          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;category&gt;MetaCity&lt;/category&gt;
           &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
           &lt;inputs&gt;
             &lt;input id="0" name="InputBreps" nickname="InputBreps" description="Input brep list to calculate population."/&gt;
@@ -616,7 +616,7 @@
           &lt;name&gt;SA_Energy&lt;/name&gt;
           &lt;nickname&gt;Energy&lt;/nickname&gt;
           &lt;description&gt;Calculates energy consumption for each building.&lt;/description&gt;
-          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;category&gt;MetaCity&lt;/category&gt;
           &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
           &lt;inputs&gt;
             &lt;input id="0" name="DesignResult" nickname="DesignResult" description="Generic input contains original design result.(Connect the output of UD_SiteGeneratePlans component to this slut.)"/&gt;
@@ -633,7 +633,7 @@
           &lt;name&gt;SA_EnergyCarbonEmissions&lt;/name&gt;
           &lt;nickname&gt;EnergyCarbonEmissions&lt;/nickname&gt;
           &lt;description&gt;Calculates the carbon emissions for generating the given amount of energy.&lt;/description&gt;
-          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;category&gt;MetaCity&lt;/category&gt;
           &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
           &lt;inputs&gt;
             &lt;input id="0" name="EnergyConsumption" nickname="EnergyConsumption" description="Result of energy consumption for each building, unit=kWh/year"/&gt;
@@ -650,7 +650,7 @@
           &lt;name&gt;SA_Water&lt;/name&gt;
           &lt;nickname&gt;Water&lt;/nickname&gt;
           &lt;description&gt;Calculates water consumption for each building.&lt;/description&gt;
-          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;category&gt;MetaCity&lt;/category&gt;
           &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
           &lt;inputs&gt;
             &lt;input id="0" name="DesignResult" nickname="DesignResult" description="Generic input contains original design result.(Connect the output of UD_SiteGeneratePlans component to this slut.)"/&gt;
@@ -666,7 +666,7 @@
           &lt;name&gt;SA_Waste&lt;/name&gt;
           &lt;nickname&gt;Waste&lt;/nickname&gt;
           &lt;description&gt;Calculates domestic waste generation for each building.&lt;/description&gt;
-          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;category&gt;MetaCity&lt;/category&gt;
           &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
           &lt;inputs&gt;
             &lt;input id="0" name="DesignResult" nickname="DesignResult" description="Generic input contains original design result.(Connect the output of UD_SiteGeneratePlans component to this slut.)"/&gt;
@@ -682,7 +682,7 @@
           &lt;name&gt;SA_WasteCarbonEmissions&lt;/name&gt;
           &lt;nickname&gt;WasteCarbonEmissions&lt;/nickname&gt;
           &lt;description&gt;Calculates the carbon emissions for waste treatment.&lt;/description&gt;
-          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;category&gt;MetaCity&lt;/category&gt;
           &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
           &lt;inputs&gt;
             &lt;input id="0" name="WasteGeneration" nickname="WasteGeneration" description="Result of domestic waste generation which require further treatment,  unit=t/year"/&gt;
@@ -703,7 +703,7 @@
           &lt;name&gt;SA_EnergyCustom&lt;/name&gt;
           &lt;nickname&gt;EnergyCustom&lt;/nickname&gt;
           &lt;description&gt;Calculates energy consumption for each building based on custom input objects.&lt;/description&gt;
-          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;category&gt;MetaCity&lt;/category&gt;
           &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
           &lt;inputs&gt;
             &lt;input id="0" name="InputBreps" nickname="InBrep" description="Input breps to calculate energy consumption."/&gt;
@@ -720,7 +720,7 @@
           &lt;name&gt;SA_WaterCustom&lt;/name&gt;
           &lt;nickname&gt;WaterCustom&lt;/nickname&gt;
           &lt;description&gt;Calculates water consumption for each building based on custom input objects.&lt;/description&gt;
-          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;category&gt;MetaCity&lt;/category&gt;
           &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
           &lt;inputs&gt;
             &lt;input id="0" name="InputBreps" nickname="InBrep" description="Input breps to calculate water consumption."/&gt;
@@ -737,7 +737,7 @@
           &lt;name&gt;SA_WasteCustom&lt;/name&gt;
           &lt;nickname&gt;WasteCustom&lt;/nickname&gt;
           &lt;description&gt;Calculates domestic waste generation for each building based on input objects.&lt;/description&gt;
-          &lt;category&gt;UrbanX&lt;/category&gt;
+          &lt;category&gt;MetaCity&lt;/category&gt;
           &lt;subCategory&gt;5_SustainabilityAnalysis&lt;/subCategory&gt;
           &lt;inputs&gt;
             &lt;input id="0" name="InputBreps" nickname="InBrep" description="Input breps to calculate domestic waste generation."/&gt;
@@ -756,7 +756,7 @@
 			&lt;name&gt;VA_GenerateMeshBuildings&lt;/name&gt;
 			&lt;nickname&gt;GenerateMeshBuildings&lt;/nickname&gt;
 			&lt;description&gt;Convert rhino brep into DMesh&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="brep" nickname="B" description="input brep"/&gt;
@@ -773,7 +773,7 @@
 			&lt;name&gt;VA_GenerateMesh&lt;/name&gt;
 			&lt;nickname&gt;GenerateMesh&lt;/nickname&gt;
 			&lt;description&gt;Convert rhino mesh into DMesh&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="mesh" nickname="M" description="input mesh"/&gt;
@@ -789,7 +789,7 @@
 			&lt;name&gt;VA_ExposureRate3DBuildings&lt;/name&gt;
 			&lt;nickname&gt;ExposureRate3DBuildings&lt;/nickname&gt;
 			&lt;description&gt;Calculate the visibility ratio of each pt in 3d context&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0"  name="viewPt" nickname="vPt" description="view pts in the context"/&gt;
@@ -810,7 +810,7 @@
       &lt;name&gt;VA_ExposureRate3DMesh&lt;/name&gt;
       &lt;nickname&gt;ExposureRate3DMesh&lt;/nickname&gt;
       &lt;description&gt;Calculate the visibility ratio of each pt in 3d context&lt;/description&gt;
-      &lt;category&gt;UrbanX&lt;/category&gt;
+      &lt;category&gt;MetaCity&lt;/category&gt;
       &lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
       &lt;inputs&gt;
         &lt;input id="0"  name="viewPt" nickname="vPt" description="view pts in the context"/&gt;
@@ -830,7 +830,7 @@
       &lt;name&gt;VA_VisualCalc&lt;/name&gt;
       &lt;nickname&gt;VisualCalc&lt;/nickname&gt;
       &lt;description&gt;calculate the visibility ratio of each crvs in 3d context&lt;/description&gt;
-      &lt;category&gt;UrbanX&lt;/category&gt;
+      &lt;category&gt;MetaCity&lt;/category&gt;
       &lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
       &lt;inputs&gt;
         &lt;input id="0"  name="viewRoads" nickname="vRoads" description="view Roads in the context"/&gt;
@@ -855,7 +855,7 @@
       &lt;name&gt;VA_VisualSyntaxCompute&lt;/name&gt;
       &lt;nickname&gt;VisualSyntaxCompute&lt;/nickname&gt;
       &lt;description&gt;calculate the visual syntax of each crvs in 3d context&lt;/description&gt;
-      &lt;category&gt;UrbanX&lt;/category&gt;
+      &lt;category&gt;MetaCity&lt;/category&gt;
       &lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
       &lt;inputs&gt;
         &lt;input id="0"  name="cleanedRoads" nickname="cRoads" description="cleaned roads in the context"/&gt;
@@ -880,7 +880,7 @@
 			&lt;name&gt;VA_ExposureRate2D&lt;/name&gt;
 			&lt;nickname&gt;ExposureRate2D&lt;/nickname&gt;
 			&lt;description&gt;calculate exposure rate of each side in builidng brep&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;6_VisibilityAnalysis&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="inputBreps" nickname="inBrep" description="input brep list to calculate exposure rate value"/&gt;
@@ -902,7 +902,7 @@
 			&lt;name&gt;U_To3DJson&lt;/name&gt;
 			&lt;nickname&gt;To3DJson&lt;/nickname&gt;
 			&lt;description&gt;Write rhino curves into 3d json.&lt;/description&gt;
-			&lt;category&gt;UrbanX&lt;/category&gt;
+			&lt;category&gt;MetaCity&lt;/category&gt;
 			&lt;subCategory&gt;7_Utility&lt;/subCategory&gt;
 			&lt;inputs&gt;
 				&lt;input id="0" name="Curves" nickname="curves" description="Input curves for converting."/&gt;

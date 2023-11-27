@@ -1,6 +1,6 @@
 using System;
 
-namespace UrbanX.Planning.SpatialAnalysis
+namespace MetaCity.Planning.SpatialAnalysis
 {
     /// <summary>
     /// Represents a vector in Euclidean space.

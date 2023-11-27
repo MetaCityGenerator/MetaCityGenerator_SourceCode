@@ -3,16 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanX", "UrbanX\UrbanX.csproj", "{B4E7A58A-EE66-4F47-ACAA-C97550C98BF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaCity", "UrbanX\MetaCity.csproj", "{B4E7A58A-EE66-4F47-ACAA-C97550C98BF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanXTools", "RhinoTest\UrbanXTools.csproj", "{E19D0036-94FE-4A07-96AC-B6A5BA6FAA99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaCityGenerator", "RhinoTest\MetaCityGenerator.csproj", "{E19D0036-94FE-4A07-96AC-B6A5BA6FAA99}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2A169608-1E75-41D3-9BE8-5F83B61E8454} = {2A169608-1E75-41D3-9BE8-5F83B61E8454}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UrbanXTools.Native", "UrbanXTools.Native\UrbanXTools.Native.vcxproj", "{2A169608-1E75-41D3-9BE8-5F83B61E8454}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MetaCityGenerator.Native", "UrbanXTools.Native\UrbanXTools.Native.vcxproj", "{2A169608-1E75-41D3-9BE8-5F83B61E8454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanXWrapper", "UrbanXWrapper\UrbanXWrapper.csproj", "{080C40C1-52B9-499C-986B-0A4EAF63D589}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaCityWrapper", "UrbanXWrapper\MetaCityWrapper.csproj", "{080C40C1-52B9-499C-986B-0A4EAF63D589}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2A169608-1E75-41D3-9BE8-5F83B61E8454} = {2A169608-1E75-41D3-9BE8-5F83B61E8454}
 	EndProjectSection

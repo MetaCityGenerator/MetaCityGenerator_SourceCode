@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text.Json;
 
-namespace UrbanX.IO.GeoJSON.Converters
+namespace MetaCity.IO.GeoJSON.Converters
 {
     internal readonly struct ParsedCoordinates
     {

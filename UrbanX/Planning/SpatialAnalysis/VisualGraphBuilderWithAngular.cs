@@ -3,10 +3,10 @@ using NetTopologySuite.Mathematics;
 using System;
 using System.Collections.Generic;
 
-using UrbanX.DataStructures.Graphs;
-using UrbanX.Planning.Utility;
+using MetaCity.DataStructures.Graphs;
+using MetaCity.Planning.Utility;
 
-namespace UrbanX.Assessment.SpatialAnalysis
+namespace MetaCity.Assessment.SpatialAnalysis
 {
     /// <summary>
     /// Construct an <see cref="UndirectedWeightedSparseGraph{T}"/> for space syntax calculation.
