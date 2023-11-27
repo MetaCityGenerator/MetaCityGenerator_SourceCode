@@ -1,4 +1,4 @@
-# MetaCityGenerator
+# MetaCityGenerator(Updating)
 
 ## **Language**
 [中文](https://github.com/CAUPDxUrbanXLab/MetaCityGenerator/blob/main/README_CN.md)
