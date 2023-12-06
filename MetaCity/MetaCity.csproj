@@ -292,6 +292,9 @@
       <Name>MetaCityWrapper</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\RhinoCommon.6.23.20055.13111\build\net45\RhinoCommon.targets" Condition="Exists('..\packages\RhinoCommon.6.23.20055.13111\build\net45\RhinoCommon.targets')" />
   <Import Project="..\packages\RhinoCommon.6.9.18271.20591\build\net45\RhinoCommon.targets" Condition="Exists('..\packages\RhinoCommon.6.9.18271.20591\build\net45\RhinoCommon.targets')" />

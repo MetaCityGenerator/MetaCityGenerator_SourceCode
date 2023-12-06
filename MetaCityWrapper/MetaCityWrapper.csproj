@@ -7,8 +7,8 @@
     <ProjectGuid>{080C40C1-52B9-499C-986B-0A4EAF63D589}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UrbanXWrapper</RootNamespace>
-    <AssemblyName>UrbanXWrapper</AssemblyName>
+    <RootNamespace>MetaCityWrapper</RootNamespace>
+    <AssemblyName>MetaCityWrapper</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

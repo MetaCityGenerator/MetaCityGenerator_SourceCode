@@ -167,16 +167,6 @@
     <Compile Include="VisibilityAnalysis_VisualSyntaxComputing.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UrbanXWrapper\MetaCityWrapper.csproj">
-      <Project>{080c40c1-52b9-499c-986b-0a4eaf63d589}</Project>
-      <Name>MetaCityWrapper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\UrbanX\MetaCity.csproj">
-      <Project>{b4e7a58a-ee66-4f47-acaa-c97550c98bf8}</Project>
-      <Name>MetaCity</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="bin\data\indexCalculation.xml" />
     <Content Include="bin\data\UrbanDesign.xml" />
     <None Include="Resources\AssemblyIcon.png" />
@@ -236,6 +226,16 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MetaCityWrapper\MetaCityWrapper.csproj">
+      <Project>{080c40c1-52b9-499c-986b-0a4eaf63d589}</Project>
+      <Name>MetaCityWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MetaCity\MetaCity.csproj">
+      <Project>{b4e7a58a-ee66-4f47-acaa-c97550c98bf8}</Project>
+      <Name>MetaCity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
