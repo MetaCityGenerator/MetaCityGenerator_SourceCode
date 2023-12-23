@@ -105,6 +105,8 @@
   <ItemGroup>
     <Compile Include="CustomAttributesForAll.cs" />
     <Compile Include="NetworkStructure_Computing3DBasedOnRadius.cs" />
+    <Compile Include="NetworkStructure_ConstructGraph.cs" />
+    <Compile Include="NetworkStructure_FindShortestPath.cs" />
     <Compile Include="NetworkStructure_GiantComponentSize.cs" />
     <Compile Include="Traffic_GenerateDemandComponent.cs" />
     <Compile Include="Traffic_LinkStatsComponent.cs" />

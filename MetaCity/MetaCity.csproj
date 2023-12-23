@@ -270,12 +270,16 @@
     <Compile Include="Traffic\StatsAnalysis.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\Release\" />
     <Folder Include="ExternalEngines\EnergyPlus\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Planning\UrbanDesign\SiteParameters.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\MetaCityWrapper.dll" />
+    <Content Include="bin\Debug\MetaCityWrapper.pdb" />
+    <Content Include="Data\UrbanDesign.xml" />
     <Content Include="ExternalEngines\Epanet\epanet2.dll" />
   </ItemGroup>
   <ItemGroup>
@@ -287,13 +291,13 @@
     <EmbeddedResource Include="IO\Resources.resx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UrbanXWrapper\MetaCityWrapper.csproj">
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MetaCityWrapper\MetaCityWrapper.csproj">
       <Project>{080c40c1-52b9-499c-986b-0a4eaf63d589}</Project>
       <Name>MetaCityWrapper</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\RhinoCommon.6.23.20055.13111\build\net45\RhinoCommon.targets" Condition="Exists('..\packages\RhinoCommon.6.23.20055.13111\build\net45\RhinoCommon.targets')" />

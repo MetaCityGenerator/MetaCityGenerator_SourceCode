@@ -6,6 +6,8 @@ using MetaCity.DataStructures.Graphs;
 using MetaCity.Planning.Utility;
 using MetaCity.DataStructures.Geometry3D;
 using System.Numerics;
+using System.Drawing.Printing;
+using NetTopologySuite.Triangulate;
 
 namespace MetaCity.Planning.SpaceSyntax
 {
@@ -36,6 +38,18 @@ namespace MetaCity.Planning.SpaceSyntax
                 MergeLines();
 
             Graph = new SpaceSyntaxGraph(_polylines.Length);
+        }
+
+        public GraphBuilder3Df() { }
+
+        public GraphBuilder3Df(GraphBuilder3Df g, bool merging = true)
+        {
+            _segmentVertices = g._segmentVertices;
+            _adjacentSegments = g._adjacentSegments;
+
+            if (merging)
+                MergeLines();
+            Graph = new SpaceSyntaxGraph(_segmentVertices.Length);
         }
 
         public void Build()

@@ -35,7 +35,7 @@ namespace MetaCityGenerator
         {
             this._meta = SharedResources.GetXML(_moduleName, _componentId);
             this.Name = "NetworkStructure_GiantComponentSize";
-            this.NickName = "GCSize";
+            this.NickName = "NS_GCSize";
             //this.Name = _meta.Element("name").Value;
             //this.NickName = _meta.Element("nickname").Value;
             this.Description = _meta.Element("description").Value;

@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Buffers;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 using MetaCity.DataStructures.Graphs;
 using MetaCity.DataStructures.Heaps;
+using NetTopologySuite.Utilities;
 
 namespace MetaCity.Algorithms.Graphs
 {
@@ -33,6 +35,8 @@ namespace MetaCity.Algorithms.Graphs
         private readonly double _radius; //*** default is postiveinfinity.
 
         private readonly double[] _radii;
+
+        private SpaceSyntaxGraph _graph;
 
         /// <summary>
         /// The total betweenness centrality for every vertex in graph. Index represents the vertex.
@@ -106,6 +110,39 @@ namespace MetaCity.Algorithms.Graphs
             Computing(graph, vertices, edges);
         }
 
+        public CalculateCentrality3D(in SpaceSyntaxGraph graph,GraphType gt , bool calc, in double radius = double.PositiveInfinity, in int[][] subGraphs = null)
+        {
+            if (radius < double.PositiveInfinity)
+                _recordSubGraph = true;
+            if (subGraphs != null)
+                _hasSubGraph = true;
+
+            _graph = graph;
+            _gt = gt;
+            _radius = radius; // need to get value for value type.
+            _subGraphs = subGraphs; // default is null.
+
+            if(_recordSubGraph)
+                SubGraphs = new int[graph.VerticesCount][];
+        }
+
+        public int[] FindShortestPath(int ori, int des)
+        {
+            var centrality = new CentralitySingleSourceS(_graph, _graph.Vertices, _graph.Edges, ori, des, _radius, _gt);
+
+            int desIndex = des;
+            List<int> pathIndices = new List<int>();
+            while (ori != desIndex)
+            {
+                pathIndices.Add(desIndex);
+                var temp = centrality.PathIndices[desIndex].First;
+                desIndex = temp.Value;
+            }
+            pathIndices.Add(ori);
+            pathIndices.Reverse();
+
+            return pathIndices.ToArray();
+        }
 
         /// <summary>
         /// 
@@ -285,6 +322,7 @@ namespace MetaCity.Algorithms.Graphs
         /// </summary>
         public int NodeCount { get; }
 
+        public LinkedList<int>[] PathIndices => _predecessors;
 
 
         /// <summary>
@@ -376,6 +414,48 @@ namespace MetaCity.Algorithms.Graphs
 
             TotalDepthScore = GetTotalDepth(out int nodeCount);
             NodeCount = nodeCount;
+        }
+
+        public CentralitySingleSourceS(SpaceSyntaxGraph graph, int[] vertices, SpaceSyntaxEdge[] edges, int source, int des, double radius, GraphType gt) // should be the only constructor. vertices == subid or vrtices == graph.vertices.
+        {
+            if (source < 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(source));
+            }
+
+            VERTEX_TO_INDEX = new Dictionary<int, int>(vertices.Length);
+            // Instantiate all the containers with vertices count as the initial capacity. 
+            // For some fields, minHeap and stack, the maxisum capacity is the vertices count.
+            // When part of the subgraphs are disconnected to graph, the vertices count of shortest path tree will be less than the graph.verticescount.
+            _predecessors = new LinkedList<int>[vertices.Length];
+
+
+            //key int should be vertex id in VERTEX_TO_INDEX, not the vertex itself.
+            _minPriorityQueue = new MinPriorityQueue<int, float>(vertices.Length);
+            _distance = new float[vertices.Length];
+
+            BetweennessScore = new float[vertices.Length];
+
+            // stack.Count may less than vertices count.
+            stack = new Stack<int>(vertices.Length);
+            // sigma and delta are for all the vertices, therefore they must have same length.
+            sigma = new int[vertices.Length];
+            delta = new float[vertices.Length];
+
+
+            Initialize(in vertices, in source);
+            DijkstraBasedOnIndex(in graph, in edges, gt, in radius);
+
+            //// Copy stack items to VertexIndicesWithRadius here, because during Accumulation stage, 
+            //// stack will become empty.
+            //VerticesWithinRadius = stack.ToArray();
+
+            ////Stack and minheap using vertex itself , the reset collection using id.
+
+            //Accumulation(in source);
+
+            //TotalDepthScore = GetTotalDepth(out int nodeCount);
+            //NodeCount = nodeCount;
         }
 
 
@@ -509,6 +589,106 @@ namespace MetaCity.Algorithms.Graphs
             }
         }
 
+        private void DijkstraBasedOnIndex(in SpaceSyntaxGraph graph, in SpaceSyntaxEdge[] edges, GraphType gt, in double radius)
+        {
+            while (!_minPriorityQueue.IsEmpty)
+            {
+                var cVertex = _minPriorityQueue.DequeueMin();
+                var cVertexIndex = VERTEX_TO_INDEX[cVertex];
+
+                stack.Push(cVertex);
+                var edgesId = graph.GetAdjacentEdgesId(cVertex);
+                // Find the precessor of current node.
+                var predecessors = _predecessors[cVertexIndex];
+                foreach (var eId in edgesId)
+                {
+                    //var eId = des;
+                    var adjacentVertex = edges[eId].OtherVertex(cVertex);
+
+                    // Check subindices.
+                    if (!VERTEX_TO_INDEX.ContainsKey(adjacentVertex))
+                        continue;
+
+                    var adjacentIndex = VERTEX_TO_INDEX[adjacentVertex];
+                    // adjacent node shouldn't be seen.
+                    if (stack.Contains(adjacentVertex))
+                        continue;
+
+                    if (predecessors.Count > 0)
+                    {
+                        //Has predecessors.
+                        // adjacent node shouldn't is one of the predecessor of current node.
+                        if (predecessors.Contains(adjacentVertex))
+                            continue;
+
+                        // Important: For spacesyntax only, predecessor, current node and adjacent node shouldn't form a cycle.
+                        int flag = 0;
+                        foreach (var pre in predecessors)
+                        {
+                            if (graph.EdgeExist(pre, adjacentVertex))
+                                flag++;
+                        }
+                        if (flag > 0)
+                            continue;
+                    }
+
+
+                    float weight = float.NaN;
+                    switch (gt)
+                    {
+                        case GraphType.Metric:
+                            weight = edges[eId].Weights.X;
+                            break;
+                        case GraphType.Angular:
+                            weight = edges[eId].Weights.Y;
+                            break;
+                        case GraphType.Other:
+                            weight = edges[eId].Weights.Z;
+                            break;
+                    }
+                    //var dist = (float)Math.Round(_distance[cVertexIndex] + weight, 6);
+                    var dist = _distance[cVertexIndex] + weight;
+
+                    if (dist <= radius) // Handle radius.
+                    {
+                        if (dist < _distance[adjacentIndex])
+                        {
+                            // update distTo and edgeTo
+                            _distance[adjacentIndex] = dist;
+
+
+                            if (_minPriorityQueue.Contains(adjacentVertex))
+                            {
+                                _minPriorityQueue.UpdatePriority(adjacentVertex, dist);
+                            }
+                            else
+                            {
+                                _minPriorityQueue.Enqueue(adjacentVertex, dist);
+                            }
+
+                            // update sigma, becasue of finding a new shortest path to adjacent node.
+                            sigma[adjacentIndex] = sigma[cVertexIndex];
+
+                            // Find the shorter path, therefore we need to update the predecessors by cleaning the linkedlist.
+                            _predecessors[adjacentIndex].Clear();
+                            _predecessors[adjacentIndex].AddLast(cVertex);
+                        }
+                        // Handle equal distance. Meaning there are multiply shortest paths to vertex w.
+                        else if (dist == _distance[adjacentIndex])
+                        {
+                            // dist and _distance[adjacentIndex] can not both equal to _infinity, therefore priorityqueue already has a node(adjacentIndex, dist).
+                            sigma[adjacentIndex] += sigma[cVertexIndex];
+                            _predecessors[adjacentIndex].AddLast(cVertex);
+                        }
+                    }
+                    else
+                    {
+                        // adjacent vertex w is out of current raius. "dist is larger than radius"s
+                        continue;
+                    }
+                }
+            }
+        }
 
         /// <summary>
         /// The Dijkstra's algorithm for one single source to all the destinations.
